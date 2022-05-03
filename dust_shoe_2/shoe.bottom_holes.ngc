@@ -1,0 +1,150 @@
+G17 G21 G90 G40
+G0 Z5.000
+G0 X0.000 Y0.000
+(Start operation: PeckDrill)
+G0 X153.711 Y30.289
+G0 Z3.000
+F100.00
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X128.711 Y5.289
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X58.000 Y41.696
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X114.822 Y105.371
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X136.803 Y66.666
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X92.334 Y22.197
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X118.900 Y139.095
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X96.095 Y161.900
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X94.464 Y64.536
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X85.577 Y73.423
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X30.423 Y128.577
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X85.577 Y128.577
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X30.423 Y73.423
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X94.464 Y137.464
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X21.536 Y137.464
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X21.536 Y64.536
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X58.000 Y152.569
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X6.431 Y101.000
+G0 Z3.000
+G1 Z-12.000
+G0 Z3.000
+G1 Z-12.200
+G0 Z3.000
+(End operation: PeckDrill)
+G0 X0.000 Y0.000
+M2

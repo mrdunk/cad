@@ -1,0 +1,99 @@
+(Block-name: Header)
+(Block-expand: 0)
+(Block-enable: 1)
+M3 S12000
+G4 P3
+G0 Z10
+(Block-name: 0 [drill])
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: G0 X5.5803 Y31.5822)
+(Block-X: G1 Z-12 f20)
+(Block-X: G0 Z1)
+(Block-name: 0 [drill])
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: G0 X13.1955 Y49.967)
+(Block-X: G1 Z-12 f20)
+(Block-X: G0 Z1)
+(Block-name: 0 [drill])
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: G0 X28.3303 Y57.3783)
+(Block-X: G1 Z-12 f20)
+(Block-X: G0 Z1)
+(Block-name: 0 [drill])
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: G0 X13.1955 Y13.1974)
+(Block-X: G1 Z-12 f20)
+(Block-X: G0 Z1)
+(Block-name: 0 [drill])
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: G0 X28.3303 Y5.7861)
+(Block-X: G1 Z-12 f20)
+(Block-X: G0 Z1)
+(Block-name: 0 [drill])
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: G0 X57.5803 Y31.5822)
+(Block-X: G1 Z-12 f20)
+(Block-X: G0 Z1)
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: G0 Z2)
+(Block-X: G0 X61.5803 Y31.5822)
+(Block-X: G0 Z0)
+(Block-X: [entered])
+(Block-X: G2 X61.5803 Y31.5822 I-30 J0 Z0 f600)
+(Block-X: [exiting])
+(Block-X: G0 Z2)
+(Block-name: 0 [in,conventional,cw,helicut:-11])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -19.000000)
+g0 z1
+g0 x49.9928 y31.5822
+g1 z0 f100
+(entered)
+g2 x49.9928 y31.5822 i-18.4125 j0 z-19 f600
+(pass -19.000000 bottom)
+g0 x49.9928 y31.5822
+g0 z-19
+(entered)
+g2 x49.9928 y31.5822 i-18.4125 j0 z-19 f600
+(exiting)
+g0 z1
+(Block-name: 0 [out,conventional,ccw,helicut:-11])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -19.000000)
+g0 z1
+g0 x63.1678 y31.5822
+g1 z0 f100
+(entered)
+g3 x63.1678 y31.5822 i-31.5875 j0 z-19 f600
+(pass -19.000000 bottom)
+g0 x63.1678 y31.5822
+g0 z-19
+(entered)
+g3 x63.1678 y31.5822 i-31.5875 j0 z-19 f600
+(exiting)
+g0 z1
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: G0 Z2)
+(Block-X: G0 X51.5803 Y31.5822)
+(Block-X: G0 Z0)
+(Block-X: [entered])
+(Block-X: G2 X51.5803 Y31.5822 I-20 J0 Z0 f600)
+(Block-X: [exiting])
+(Block-X: G0 Z2)
+(Block-name: Footer)
+(Block-expand: 0)
+(Block-enable: 1)
+M5
+G0 Z20

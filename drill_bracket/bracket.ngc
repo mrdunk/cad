@@ -1,0 +1,533 @@
+(Block-name: Header)
+(Block-expand: 0)
+(Block-enable: 1)
+M3 S12000
+G4 P3
+G0 Z10
+(Block-name: 0 [in,conventional,cw,helicut:-10])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -3.200000)
+g0 z3
+g0 x169 y19
+g1 z0 f20
+(entered)
+g1 x211 y19 z-1.6 f500
+g1 x169 y19 z-3.2
+(pass -3.200000 to -6.400000)
+g0 x169 y19
+g0 z-3.2
+(entered)
+g1 x211 y19 z-4.8 f500
+g1 x169 y19 z-6.4
+(pass -6.400000 to -9.600000)
+g0 x169 y19
+g0 z-6.4
+(entered)
+g1 x211 y19 z-8 f500
+g1 x169 y19 z-9.6
+(pass -6.800000 to -10.000000)
+g0 x169 y19
+g0 z-6.8
+(entered)
+g1 x211 y19 z-8.4 f500
+g1 x169 y19 z-10
+(pass -10.000000 bottom)
+g0 x169 y19
+g0 z-10
+(entered)
+g1 x211 y19 z-10 f500
+g1 x169 y19 z-10
+(exiting)
+g0 z3
+(Block-name: 0 [in,conventional,cw,helicut:-10])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -3.200000)
+g0 z3
+g0 x166 y16
+g1 z0 f20
+(entered)
+g1 x166 y22 z-0.177778 f500
+g1 x214 y22 z-1.6
+g1 x214 y16 z-1.777778
+g1 x166 y16 z-3.2
+(pass -3.200000 to -6.400000)
+g0 x166 y16
+g0 z-3.2
+(entered)
+g1 x166 y22 z-3.377778 f500
+g1 x214 y22 z-4.8
+g1 x214 y16 z-4.977778
+g1 x166 y16 z-6.4
+(pass -6.400000 to -9.600000)
+g0 x166 y16
+g0 z-6.4
+(entered)
+g1 x166 y22 z-6.577778 f500
+g1 x214 y22 z-8
+g1 x214 y16 z-8.177778
+g1 x166 y16 z-9.6
+(pass -6.800000 to -10.000000)
+g0 x166 y16
+g0 z-6.8
+(entered)
+g1 x166 y22 z-6.977778 f500
+g1 x214 y22 z-8.4
+g1 x214 y16 z-8.577778
+g1 x166 y16 z-10
+(pass -10.000000 bottom)
+g0 x166 y16
+g0 z-10
+(entered)
+g1 x166 y22 z-10 f500
+g1 x214 y22 z-10
+g1 x214 y16 z-10
+g1 x166 y16 z-10
+(exiting)
+g0 z3
+(Block-name: 0 [in,conventional,cw,helicut:-10])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -3.200000)
+g0 z3
+g0 x163 y13
+g1 z0 f20
+(entered)
+g1 x162.12132 y12.12132 z-0.028015 f500
+g1 x163 y13 z-0.05603
+g1 x163 y25 z-0.326564
+g1 x162.12132 y25.87868 z-0.354579
+g1 x163 y25 z-0.382594
+g1 x217 y25 z-1.6
+g1 x217.87868 y25.87868 z-1.628015
+g1 x217 y25 z-1.65603
+g1 x217 y13 z-1.926564
+g1 x217.87868 y12.12132 z-1.954579
+g1 x217 y13 z-1.982594
+g1 x163 y13 z-3.2
+(pass -3.200000 to -6.400000)
+g0 x163 y13
+g0 z-3.2
+(entered)
+g1 x162.12132 y12.12132 z-3.228015 f500
+g1 x163 y13 z-3.25603
+g1 x163 y25 z-3.526564
+g1 x162.12132 y25.87868 z-3.554579
+g1 x163 y25 z-3.582594
+g1 x217 y25 z-4.8
+g1 x217.87868 y25.87868 z-4.828015
+g1 x217 y25 z-4.85603
+g1 x217 y13 z-5.126564
+g1 x217.87868 y12.12132 z-5.154579
+g1 x217 y13 z-5.182594
+g1 x163 y13 z-6.4
+(pass -6.400000 to -9.600000)
+g0 x163 y13
+g0 z-6.4
+(entered)
+g1 x162.12132 y12.12132 z-6.428015 f500
+g1 x163 y13 z-6.45603
+g1 x163 y25 z-6.726564
+g1 x162.12132 y25.87868 z-6.754579
+g1 x163 y25 z-6.782594
+g1 x217 y25 z-8
+g1 x217.87868 y25.87868 z-8.028015
+g1 x217 y25 z-8.05603
+g1 x217 y13 z-8.326564
+g1 x217.87868 y12.12132 z-8.354579
+g1 x217 y13 z-8.382594
+g1 x163 y13 z-9.6
+(pass -6.800000 to -10.000000)
+g0 x163 y13
+g0 z-6.8
+(entered)
+g1 x162.12132 y12.12132 z-6.828015 f500
+g1 x163 y13 z-6.85603
+g1 x163 y25 z-7.126564
+g1 x162.12132 y25.87868 z-7.154579
+g1 x163 y25 z-7.182594
+g1 x217 y25 z-8.4
+g1 x217.87868 y25.87868 z-8.428015
+g1 x217 y25 z-8.45603
+g1 x217 y13 z-8.726564
+g1 x217.87868 y12.12132 z-8.754579
+g1 x217 y13 z-8.782594
+g1 x163 y13 z-10
+(pass -10.000000 bottom)
+g0 x163 y13
+g0 z-10
+(entered)
+g1 x162.12132 y12.12132 z-10 f500
+g1 x163 y13 z-10
+g1 x163 y25 z-10
+g1 x162.12132 y25.87868 z-10
+g1 x163 y25 z-10
+g1 x217 y25 z-10
+g1 x217.87868 y25.87868 z-10
+g1 x217 y25 z-10
+g1 x217 y13 z-10
+g1 x217.87868 y12.12132 z-10
+g1 x217 y13 z-10
+g1 x163 y13 z-10
+(exiting)
+g0 z3
+(Block-name: 0 [in,conventional,cw,helicut:-10])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -3.200000)
+g0 z3
+g0 x169 y96
+g1 z0 f20
+(entered)
+g1 x211 y96 z-1.6 f500
+g1 x169 y96 z-3.2
+(pass -3.200000 to -6.400000)
+g0 x169 y96
+g0 z-3.2
+(entered)
+g1 x211 y96 z-4.8 f500
+g1 x169 y96 z-6.4
+(pass -6.400000 to -9.600000)
+g0 x169 y96
+g0 z-6.4
+(entered)
+g1 x211 y96 z-8 f500
+g1 x169 y96 z-9.6
+(pass -6.800000 to -10.000000)
+g0 x169 y96
+g0 z-6.8
+(entered)
+g1 x211 y96 z-8.4 f500
+g1 x169 y96 z-10
+(pass -10.000000 bottom)
+g0 x169 y96
+g0 z-10
+(entered)
+g1 x211 y96 z-10 f500
+g1 x169 y96 z-10
+(exiting)
+g0 z3
+(Block-name: 0 [in,conventional,cw,helicut:-10])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -3.200000)
+g0 z3
+g0 x166 y99
+g1 z0 f20
+(entered)
+g1 x214 y99 z-1.422222 f500
+g1 x214 y93 z-1.6
+g1 x166 y93 z-3.022222
+g1 x166 y99 z-3.2
+(pass -3.200000 to -6.400000)
+g0 x166 y99
+g0 z-3.2
+(entered)
+g1 x214 y99 z-4.622222 f500
+g1 x214 y93 z-4.8
+g1 x166 y93 z-6.222222
+g1 x166 y99 z-6.4
+(pass -6.400000 to -9.600000)
+g0 x166 y99
+g0 z-6.4
+(entered)
+g1 x214 y99 z-7.822222 f500
+g1 x214 y93 z-8
+g1 x166 y93 z-9.422222
+g1 x166 y99 z-9.6
+(pass -6.800000 to -10.000000)
+g0 x166 y99
+g0 z-6.8
+(entered)
+g1 x214 y99 z-8.222222 f500
+g1 x214 y93 z-8.4
+g1 x166 y93 z-9.822222
+g1 x166 y99 z-10
+(pass -10.000000 bottom)
+g0 x166 y99
+g0 z-10
+(entered)
+g1 x214 y99 z-10 f500
+g1 x214 y93 z-10
+g1 x166 y93 z-10
+g1 x166 y99 z-10
+(exiting)
+g0 z3
+(Block-name: 0 [in,conventional,cw,helicut:-10])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -3.200000)
+g0 z3
+g0 x163 y102
+g1 z0 f20
+(entered)
+g1 x162.12132 y102.87868 z-0.028015 f500
+g1 x163 y102 z-0.05603
+g1 x217 y102 z-1.273436
+g1 x217.87868 y102.87868 z-1.301451
+g1 x217 y102 z-1.329465
+g1 x217 y90 z-1.6
+g1 x217.87868 y89.12132 z-1.628015
+g1 x217 y90 z-1.65603
+g1 x163 y90 z-2.873436
+g1 x162.12132 y89.12132 z-2.901451
+g1 x163 y90 z-2.929465
+g1 x163 y102 z-3.2
+(pass -3.200000 to -6.400000)
+g0 x163 y102
+g0 z-3.2
+(entered)
+g1 x162.12132 y102.87868 z-3.228015 f500
+g1 x163 y102 z-3.25603
+g1 x217 y102 z-4.473436
+g1 x217.87868 y102.87868 z-4.50145
+g1 x217 y102 z-4.529465
+g1 x217 y90 z-4.8
+g1 x217.87868 y89.12132 z-4.828015
+g1 x217 y90 z-4.85603
+g1 x163 y90 z-6.073436
+g1 x162.12132 y89.12132 z-6.101451
+g1 x163 y90 z-6.129465
+g1 x163 y102 z-6.4
+(pass -6.400000 to -9.600000)
+g0 x163 y102
+g0 z-6.4
+(entered)
+g1 x162.12132 y102.87868 z-6.428015 f500
+g1 x163 y102 z-6.45603
+g1 x217 y102 z-7.673436
+g1 x217.87868 y102.87868 z-7.70145
+g1 x217 y102 z-7.729465
+g1 x217 y90 z-8
+g1 x217.87868 y89.12132 z-8.028015
+g1 x217 y90 z-8.05603
+g1 x163 y90 z-9.273436
+g1 x162.12132 y89.12132 z-9.30145
+g1 x163 y90 z-9.329465
+g1 x163 y102 z-9.6
+(pass -6.800000 to -10.000000)
+g0 x163 y102
+g0 z-6.8
+(entered)
+g1 x162.12132 y102.87868 z-6.828015 f500
+g1 x163 y102 z-6.85603
+g1 x217 y102 z-8.073436
+g1 x217.87868 y102.87868 z-8.101451
+g1 x217 y102 z-8.129465
+g1 x217 y90 z-8.4
+g1 x217.87868 y89.12132 z-8.428015
+g1 x217 y90 z-8.45603
+g1 x163 y90 z-9.673436
+g1 x162.12132 y89.12132 z-9.70145
+g1 x163 y90 z-9.729465
+g1 x163 y102 z-10
+(pass -10.000000 bottom)
+g0 x163 y102
+g0 z-10
+(entered)
+g1 x162.12132 y102.87868 z-10 f500
+g1 x163 y102 z-10
+g1 x217 y102 z-10
+g1 x217.87868 y102.87868 z-10
+g1 x217 y102 z-10
+g1 x217 y90 z-10
+g1 x217.87868 y89.12132 z-10
+g1 x217 y90 z-10
+g1 x163 y90 z-10
+g1 x162.12132 y89.12132 z-10
+g1 x163 y90 z-10
+g1 x163 y102 z-10
+(exiting)
+g0 z3
+(Block-name: 0 [out,conventional,ccw,helicut:-18.5])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -3.200000)
+g0 z3
+g0 x147 y0
+g1 z0 f20
+(entered)
+g3 x150 y-3 i3 j0 z-0.036002 f500
+g1 x230 y-3 z-0.6472
+g3 x233 y0 i0 j3 z-0.683203
+g1 x233 y120 z-1.6
+g3 x230 y123 i-3 j0 z-1.636003
+g1 x150 y123 z-2.2472
+g3 x147 y120 i0 j-3 z-2.283203
+g1 x147 y0 z-3.2
+(pass -3.200000 to -6.400000)
+g0 x147 y0
+g0 z-3.2
+(entered)
+g3 x150 y-3 i3 j0 z-3.236003 f500
+g1 x230 y-3 z-3.847201
+g3 x233 y0 i0 j3 z-3.883203
+g1 x233 y120 z-4.8
+g3 x230 y123 i-3 j0 z-4.836003
+g1 x150 y123 z-5.447201
+g3 x147 y120 i0 j-3 z-5.483203
+g1 x147 y0 z-6.4
+(pass -6.400000 to -9.600000)
+g0 x147 y0
+g0 z-6.4
+(entered)
+g3 x150 y-3 i3 j0 z-6.436002 f500
+g1 x230 y-3 z-7.0472
+g3 x233 y0 i0 j3 z-7.083203
+g1 x233 y120 z-8
+g3 x230 y123 i-3 j0 z-8.036003
+g1 x150 y123 z-8.647201
+g3 x147 y120 i0 j-3 z-8.683203
+g1 x147 y0 z-9.6
+(pass -9.600000 to -12.800000)
+g0 x147 y0
+g0 z-9.6
+(entered)
+g3 x150 y-3 i3 j0 z-9.636003 f500
+g1 x230 y-3 z-10.2472
+g3 x233 y0 i0 j3 z-10.283203
+g1 x233 y120 z-11.2
+g3 x230 y123 i-3 j0 z-11.236002
+g1 x150 y123 z-11.8472
+g3 x147 y120 i0 j-3 z-11.883203
+g1 x147 y0 z-12.8
+(pass -12.800000 to -16.000000)
+g0 x147 y0
+g0 z-12.8
+(entered)
+g3 x150 y-3 i3 j0 z-12.836002 f500
+g1 x230 y-3 z-13.4472
+g3 x233 y0 i0 j3 z-13.483203
+g1 x233 y120 z-14.4
+g3 x230 y123 i-3 j0 z-14.436003
+g1 x150 y123 z-15.047201
+g3 x147 y120 i0 j-3 z-15.083203
+g1 x147 y0 z-16
+(pass -15.300000 to -18.500000)
+g0 x147 y0
+g0 z-15.3
+(entered)
+g3 x150 y-3 i3 j0 z-15.336002 f500
+g1 x230 y-3 z-15.9472
+g3 x233 y0 i0 j3 z-15.983203
+g1 x233 y120 z-16.9
+g3 x230 y123 i-3 j0 z-16.936003
+g1 x150 y123 z-17.5472
+g3 x147 y120 i0 j-3 z-17.583203
+g1 x147 y0 z-18.5
+(pass -18.500000 bottom)
+g0 x147 y0
+g0 z-18.5
+(entered)
+g3 x150 y-3 i3 j0 z-18.5 f500
+g1 x230 y-3 z-18.5
+g3 x233 y0 i0 j3 z-18.5
+g1 x233 y120 z-18.5
+g3 x230 y123 i-3 j0 z-18.5
+g1 x150 y123 z-18.5
+g3 x147 y120 i0 j-3 z-18.5
+g1 x147 y0 z-18.5
+(exiting)
+g0 z3
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x150 y0)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x150 y120 z0 f100)
+(Block-X: g1 x230 y120 z0)
+(Block-X: g1 x230 y0 z0)
+(Block-X: g1 x150 y0 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x30 y60.75)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g3 x30 y19.25 i0 j-20.75 z0 f100)
+(Block-X: g1 x30 y0 z0)
+(Block-X: g1 x0 y0 z0)
+(Block-X: g1 x0 y40 z0)
+(Block-X: g2 x20 y68.284271 i30 j0 z0)
+(Block-X: g1 x20 y90 z0)
+(Block-X: g1 x30 y90 z0)
+(Block-X: g1 x30 y60.75 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x40 y90.000001)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x50 y90.000001 z0 f100)
+(Block-X: g1 x50 y68.284272 z0)
+(Block-X: g2 x70 y40 i-10 j-28.284271 z0)
+(Block-X: g1 x70 y0.000001 z0)
+(Block-X: g1 x40 y0 z0)
+(Block-X: g1 x40 y19.250001 z0)
+(Block-X: g3 x40 y60.750001 i0 j20.75 z0)
+(Block-X: g1 x40 y90.000001 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x78 y0)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x78 y40 z0 f100)
+(Block-X: g2 x138 y39.999998 i30 j0 z0)
+(Block-X: g1 x138 y0 z0)
+(Block-X: g1 x78 y0 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x160 y10)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x160 y28 z0 f100)
+(Block-X: g1 x220 y28 z0)
+(Block-X: g1 x220 y10 z0)
+(Block-X: g1 x160 y10 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x160 y105)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x220 y105 z0 f100)
+(Block-X: g1 x220 y87 z0)
+(Block-X: g1 x160 y87 z0)
+(Block-X: g1 x160 y105 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x126 y40)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g2 x126 y40 i-18 j0 z0 f100)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: Footer)
+(Block-expand: 0)
+(Block-enable: 1)
+M5
+G0 Z20
