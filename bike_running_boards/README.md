@@ -6,7 +6,7 @@ Caveats:
 - The CAD file assumes 12mm thick material is used. If you use some other thickness the slot widths will need to be modified so the parts interlock.
 - I used PolyCarbonate for this. It is complete overkill but it's what i had lying around. A tough plywood might work?
 - The mounting holes are in the right place for my RR but i don't know how accurate the manufacture of the RR frame is. Probably worth measuring the spacing between the mounting holes before you cut.
-- I made a mistake in the planning phase: The left board interferes with the brake. See the picture: ![board_hits_brake](PXL_20220203_095544610.jpg?raw=true) Rather than cut the part again, i just modified it slightly with hand tools to the board no longer pushes the brake.
+- I made a mistake in the planning phase: The left board interferes with the brake. See the picture: ![board_hits_brake](PXL_20220203_095544610.jpg?raw=true) Rather than cut the part again, i just thinned the back side slightly with hand tools so the board no longer pushes the brake. (Modification not shown in the picture.)
 
 
 Happy customer:
