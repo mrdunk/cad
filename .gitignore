@@ -1,0 +1,5 @@
+*.dxf~
+\#*.dxf
+*.swp
+*/.mypy_cache/
+

@@ -1,0 +1,84 @@
+G17 G90 G40 G21
+G0 Z5
+G0 X0 Y0
+(Start operation: Contour)
+(Start cutpath)
+G0 Z5
+G0 X351.28 Y-1.48
+(Start enter cut at -3.0)
+G0 Z1
+F60.00
+G1 Z0
+F150.00
+(Start ramped move from 0 to -3.0)
+G1 X351.28 Y-1.48
+(Start subpath)
+G3 X357.43 Y4.67 Z-1.899 I-0.439 J6.589
+G1 X357.43 Y4.67 Z-1.899
+G1 X357.44 Y5.06 Z-1.977
+G1 X357.44 Y10.176 Z-3
+(End subpath)
+(Start subpath)
+G1 X357.44 Y5.06
+G1 X357.43 Y4.67
+G2 X351.28 Y-1.48 I-6.589 J0.439
+(End subpath)
+(End ramped move - upward direction detected)
+F300.00
+(End enter cut)
+(Start subpath)
+G3 X357.43 Y4.67 I-0.439 J6.589
+G1 X357.43 Y4.67
+G1 X357.44 Y5.06
+G1 X357.44 Y122.3
+G3 X351.32 Y128.83 I-6.602 J-0.054
+G1 X351.32 Y128.83
+G1 X350.93 Y128.85
+G1 X5.02 Y128.85
+G3 X-1.48 Y122.69 I0.101 J-6.616
+G1 X-1.48 Y122.69
+G1 X-1.49 Y122.3
+G1 X-1.49 Y5.06
+G3 X4.66 Y-1.48 I6.597 J0.042
+G1 X4.66 Y-1.48
+G1 X5.06 Y-1.49
+G1 X350.89 Y-1.49
+G1 X351.28 Y-1.48
+(End subpath)
+(Start enter cut at -4.0)
+F150.00
+(Start ramped move from -3.0 to -4.0)
+G1 X351.28 Y-1.48
+(Start subpath)
+G3 X355.686 Y0.622 Z-4 I-0.439 J6.589
+(End subpath)
+(Start subpath)
+G2 X351.28 Y-1.48 I-4.845 J4.487
+(End subpath)
+(End ramped move - upward direction detected)
+F300.00
+(End enter cut)
+(Start subpath)
+G3 X357.43 Y4.67 I-0.439 J6.589
+G1 X357.43 Y4.67
+G1 X357.44 Y5.06
+G1 X357.44 Y122.3
+G3 X351.32 Y128.83 I-6.602 J-0.054
+G1 X351.32 Y128.83
+G1 X350.93 Y128.85
+G1 X5.02 Y128.85
+G3 X-1.48 Y122.69 I0.101 J-6.616
+G1 X-1.48 Y122.69
+G1 X-1.49 Y122.3
+G1 X-1.49 Y5.06
+G3 X4.66 Y-1.48 I6.597 J0.042
+G1 X4.66 Y-1.48
+G1 X5.06 Y-1.49
+G1 X350.89 Y-1.49
+G1 X351.28 Y-1.48
+(End subpath)
+G0 Z5
+(End cutpath)
+(End operation: Contour)
+G0 X0 Y0
+M2
