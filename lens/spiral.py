@@ -231,7 +231,7 @@ def write_gcode(gcode_lines: List[str], filename: str) -> None:
     with open(filename, 'w') as f:
         f.write('\n'.join(gcode_lines))
 
-def check_integraty(arcs: List[Arc]) -> None:
+def check_integrity(arcs: List[Arc]) -> None:
     last_point = None
     for arc in arcs:
         print(f'{arc.start_point()}\t{arc.start_angle}\t{arc.end_point()}\t{arc.end_angle}')
@@ -374,7 +374,7 @@ def main():
 
     center_curvature = (args.x_offset, args.y_offset, -args.radius_curvature)
     spiral_to_lens(arcs, center_curvature, args.radius_curvature, lens_type, args.z_offset)
-    #check_integraty(arcs)
+    #check_integrity(arcs)
 
     gcode_lines = header_gcode(args.safe_z)
     spiral_gcode, summary_data = arcs_to_gcode(

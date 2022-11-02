@@ -1,0 +1,121 @@
+(Block-name: Header)
+(Block-expand: 0)
+(Block-enable: 1)
+M3 S12000
+G4 P3
+G0 Z10
+(Block-name: 0 [cut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -20.000000)
+g0 z3
+g0 x0 y0
+g1 z-20 f500
+(entered)
+g1 x0 y10 z-20 f500
+g1 x10 y10 z-20
+g1 x10 y0 z-20
+g1 x0 y0 z-20
+(exiting)
+g0 z3
+(Block-name: 0 [cut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -20.000000)
+g0 z3
+g0 x0.1 y0.1
+g1 z-20 f500
+(entered)
+g1 x0.1 y9.9 z-20 f500
+g1 x9.9 y9.9 z-20
+g1 x9.9 y0.1 z-20
+g1 x0.1 y0.1 z-20
+(exiting)
+g0 z3
+(Block-name: 0 [cut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -20.000000)
+g0 z3
+g0 x1 y1
+g1 z-20 f500
+(entered)
+g1 x1 y9 z-20 f500
+g1 x9 y9 z-20
+g1 x9 y1 z-20
+g1 x1 y1 z-20
+(exiting)
+g0 z3
+(Block-name: 0 [cut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -20.000000)
+g0 z3
+g0 x1.1 y1.1
+g1 z-20 f500
+(entered)
+g1 x1.1 y8.9 z-20 f500
+g1 x8.9 y8.9 z-20
+g1 x8.9 y1.1 z-20
+g1 x1.1 y1.1 z-20
+(exiting)
+g0 z3
+(Block-name: 0 [cut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -20.000000)
+g0 z3
+g0 x2.1 y2.1
+g1 z-20 f500
+(entered)
+g1 x2.1 y7.9 z-20 f500
+g1 x7.9 y7.9 z-20
+g1 x7.9 y2.1 z-20
+g1 x2.1 y2.1 z-20
+g1 x2.1 y7.9 z-20
+g1 x7.9 y7.9 z-20
+g1 x7.9 y2.1 z-20
+g1 x2.1 y2.1 z-20
+(exiting)
+g0 z3
+(Block-name: 0 [cut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -20.000000)
+g0 z3
+g0 x2 y2
+g1 z-20 f500
+(entered)
+g1 x2 y8 z-20 f500
+g1 x8 y8 z-20
+g1 x8 y2 z-20
+g1 x2 y2 z-20
+(exiting)
+g0 z3
+(Block-name: 0 [cut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -20.000000)
+g0 z3
+g0 x8 y5
+g1 z-20 f500
+(entered)
+g2 x8 y5 i-3 j0 z-20 f500
+(exiting)
+g0 z3
+(Block-name: 0 [cut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -20.000000)
+g0 z3
+g0 x7.9 y5
+g1 z-20 f500
+(entered)
+g2 x7.9 y5 i-2.9 j0 z-20 f500
+(exiting)
+g0 z3
+(Block-name: Footer)
+(Block-expand: 0)
+(Block-enable: 1)
+M5
+G0 Z10

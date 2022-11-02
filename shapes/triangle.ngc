@@ -1,0 +1,81 @@
+(Block-name: Header)
+(Block-expand: 0)
+(Block-enable: 1)
+M3 S12000
+G4 P3
+G0 Z10
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: g0 z3)
+(Block-X: g0 x86.60254 y50)
+(Block-X: g0 z0)
+(Block-X: [entered])
+(Block-X: g1 x0 y0 z0 f20)
+(Block-X: g1 x0 y100 z0)
+(Block-X: g1 x86.60254 y50 z0)
+(Block-X: [exiting])
+(Block-X: g0 z3)
+(Block-name: 0 [out,conventional,ccw,helicut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass 0.000000 to -4.200000)
+g0 z3
+g0 x87.54629 y48.365377
+g1 z0 f50
+(entered)
+g3 x87.54629 y51.634623 i-0.94375 j1.634623 z-1.045878 f189
+g1 x0.94375 y101.634623 z-4.2
+g3 x-1.8875 y100 i-0.94375 j-1.634623 z-4.2 f500
+g1 x-1.8875 y0 z-4.2
+g3 x0.94375 y-1.634623 i1.8875 j0 z-4.2
+g1 x87.54629 y48.365377 z-4.2
+(pass -4.200000 to -8.400000)
+g0 x87.54629 y48.365377
+g0 z-4.2
+(entered)
+g3 x87.54629 y51.634623 i-0.94375 j1.634623 z-5.245878 f189
+g1 x0.94375 y101.634623 z-8.4
+g3 x-1.8875 y100 i-0.94375 j-1.634623 z-8.4 f500
+g1 x-1.8875 y0 z-8.4
+g3 x0.94375 y-1.634623 i1.8875 j0 z-8.4
+g1 x87.54629 y48.365377 z-8.4
+(pass -8.300000 to -12.500000)
+g0 x87.54629 y48.365377
+g0 z-8.3
+(entered)
+g3 x87.54629 y51.634623 i-0.94375 j1.634623 z-9.345878 f189
+g1 x0.94375 y101.634623 z-12.5
+g3 x-1.8875 y100 i-0.94375 j-1.634623 z-12.5 f500
+g1 x-1.8875 y0 z-12.5
+g3 x0.94375 y-1.634623 i1.8875 j0 z-12.5
+g1 x87.54629 y48.365377 z-12.5
+(pass -12.500000 bottom)
+g0 x87.54629 y48.365377
+g0 z-12.5
+(entered)
+g3 x87.54629 y51.634623 i-0.94375 j1.634623 z-12.5 f500
+g1 x0.94375 y101.634623 z-12.5
+(exiting)
+g0 z3
+(Block-name: 0 [out,conventional,ccw,cut])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -12.500000)
+g0 z3
+g0 x87.39629 y48.625185
+g1 z-12.5 f50
+(entered)
+g3 x87.39629 y51.374815 i-0.79375 j1.374815 z-12.5 f500
+g1 x0.79375 y101.374815 z-12.5
+g3 x-1.5875 y100 i-0.79375 j-1.374815 z-12.5
+g1 x-1.5875 y0 z-12.5
+g3 x0.79375 y-1.374815 i1.5875 j0 z-12.5
+g1 x87.39629 y48.625185 z-12.5
+(exiting)
+g0 z3
+(Block-name: Footer)
+(Block-expand: 0)
+(Block-enable: 1)
+M5
+G0 Z20
