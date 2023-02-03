@@ -1,0 +1,822 @@
+{
+  "material": {
+    "_type": "WorkpieceTreeItem",
+    "material": 0,
+    "thickness": 12.2,
+    "clearance": 5.0,
+    "safe_entry_z": 1.0
+  },
+  "tools": [
+    {
+      "_type": "EndMillCutter",
+      "id": 1054,
+      "name": "Cheapy 1/8",
+      "material": "carbide",
+      "diameter": 3.175,
+      "length": 20.0,
+      "flutes": 2
+    }
+  ],
+  "tool_presets": [
+    {
+      "_type": "EndMillPreset",
+      "id": 1053,
+      "name": "MDF",
+      "rpm": null,
+      "hfeed": 600.0,
+      "vfeed": 200.0,
+      "maxdoc": 5.0,
+      "offset": 0.0,
+      "stepover": 0.75,
+      "direction": 0,
+      "extra_width": 0.5,
+      "trc_rate": 0.0,
+      "pocket_strategy": 1,
+      "axis_angle": 0.0,
+      "eh_diameter": 0.5,
+      "entry_mode": 2,
+      "roughing_offset": 0.0,
+      "toolbit": 1054
+    }
+  ],
+  "default_presets": [
+    {
+      "tool_id": 1054,
+      "preset_id": 1053
+    }
+  ],
+  "drawing": {
+    "header": {
+      "_type": "DrawingTreeItem",
+      "x_offset": 320.0,
+      "y_offset": 0
+    },
+    "items": [
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5488,
+        "cx": 50.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5489,
+        "cx": 32.32233047033631,
+        "cy": 67.67766952966369,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5490,
+        "cx": 50.0,
+        "cy": 75.00000000000003,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5491,
+        "cx": 67.67766952966369,
+        "cy": 67.67766952966369,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5492,
+        "cx": 75.00000000000003,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5493,
+        "cx": 67.67766952966369,
+        "cy": 32.32233047033631,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5494,
+        "cx": 50.0,
+        "cy": 24.99999999999998,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5495,
+        "cx": 32.32233047033631,
+        "cy": 32.32233047033631,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5496,
+        "cx": 24.99999999999998,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5497,
+        "cx": 26.90301168721783,
+        "cy": 59.56708580912725,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5498,
+        "cx": 40.43291419087274,
+        "cy": 73.0969883127822,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5499,
+        "cx": 59.56708580912725,
+        "cy": 73.09698831278217,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5500,
+        "cx": 73.0969883127822,
+        "cy": 59.56708580912726,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5501,
+        "cx": 73.09698831278217,
+        "cy": 40.43291419087275,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5502,
+        "cx": 59.56708580912725,
+        "cy": 26.90301168721781,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5503,
+        "cx": 40.43291419087275,
+        "cy": 26.90301168721783,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5504,
+        "cx": 26.90301168721781,
+        "cy": 40.43291419087275,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5505,
+        "cx": 160.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5506,
+        "cx": 142.3223304703363,
+        "cy": 67.67766952966369,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5507,
+        "cx": 160.0,
+        "cy": 75.00000000000003,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5508,
+        "cx": 177.6776695296637,
+        "cy": 67.67766952966369,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5509,
+        "cx": 185.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5510,
+        "cx": 177.6776695296637,
+        "cy": 32.32233047033631,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5511,
+        "cx": 160.0,
+        "cy": 24.99999999999998,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5512,
+        "cx": 142.3223304703363,
+        "cy": 32.32233047033631,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5513,
+        "cx": 135.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5514,
+        "cx": 136.9030116872178,
+        "cy": 59.56708580912725,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5515,
+        "cx": 150.4329141908727,
+        "cy": 73.0969883127822,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5516,
+        "cx": 169.5670858091273,
+        "cy": 73.09698831278217,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5517,
+        "cx": 183.0969883127822,
+        "cy": 59.56708580912726,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5518,
+        "cx": 183.0969883127822,
+        "cy": 40.43291419087275,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5519,
+        "cx": 169.5670858091273,
+        "cy": 26.90301168721781,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5520,
+        "cx": 150.4329141908727,
+        "cy": 26.90301168721783,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5521,
+        "cx": 136.9030116872178,
+        "cy": 40.43291419087275,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5522,
+        "cx": 270.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5523,
+        "cx": 252.3223304703363,
+        "cy": 67.67766952966369,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5524,
+        "cx": 270.0,
+        "cy": 75.00000000000003,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5525,
+        "cx": 287.6776695296637,
+        "cy": 67.67766952966369,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5526,
+        "cx": 295.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5527,
+        "cx": 287.6776695296637,
+        "cy": 32.32233047033631,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5528,
+        "cx": 270.0,
+        "cy": 24.99999999999998,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5529,
+        "cx": 252.3223304703363,
+        "cy": 32.32233047033631,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5530,
+        "cx": 245.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5531,
+        "cx": 246.9030116872178,
+        "cy": 59.56708580912725,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5532,
+        "cx": 260.4329141908727,
+        "cy": 73.0969883127822,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5533,
+        "cx": 279.5670858091273,
+        "cy": 73.09698831278217,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5534,
+        "cx": 293.0969883127822,
+        "cy": 59.56708580912726,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5535,
+        "cx": 293.0969883127822,
+        "cy": 40.43291419087275,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5536,
+        "cx": 279.5670858091273,
+        "cy": 26.90301168721781,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5537,
+        "cx": 260.4329141908727,
+        "cy": 26.90301168721783,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5538,
+        "cx": 246.9030116872178,
+        "cy": 40.43291419087275,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 5539,
+        "points": [
+          [
+            99.74937185533096,
+            44.99999999999992
+          ],
+          [
+            "ARC_CW",
+            [
+              99.74937185533096,
+              44.99999999999992
+            ],
+            [
+              99.749371855331,
+              54.999999999999964
+            ],
+            [
+              49.999999999999815,
+              50.00000000000013,
+              50.00000000000018
+            ],
+            969,
+            -0.10016742116156287,
+            -6.082850464856467
+          ],
+          [
+            85.0,
+            55.0
+          ],
+          [
+            85.0,
+            45.0
+          ],
+          [
+            99.74937185533098,
+            44.99999999999996
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 5540,
+        "points": [
+          [
+            209.749371855331,
+            44.99999999999999
+          ],
+          [
+            "ARC_CW",
+            [
+              209.749371855331,
+              44.99999999999999
+            ],
+            [
+              209.749371855331,
+              55.0
+            ],
+            [
+              160.0,
+              50.0,
+              50.0
+            ],
+            969,
+            -0.10016742116155995,
+            -6.082850464856467
+          ],
+          [
+            195.0,
+            55.0
+          ],
+          [
+            195.0,
+            45.0
+          ],
+          [
+            209.749371855331,
+            44.99999999999999
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 5541,
+        "points": [
+          [
+            319.749371855331,
+            44.99999999999999
+          ],
+          [
+            "ARC_CW",
+            [
+              319.749371855331,
+              44.99999999999999
+            ],
+            [
+              319.749371855331,
+              55.0
+            ],
+            [
+              270.0,
+              50.0,
+              50.0
+            ],
+            969,
+            -0.10016742116155995,
+            -6.082850464856467
+          ],
+          [
+            305.0,
+            55.0
+          ],
+          [
+            305.0,
+            45.0
+          ],
+          [
+            319.749371855331,
+            44.99999999999999
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5542,
+        "cx": 380.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5543,
+        "cx": 362.3223304703363,
+        "cy": 67.67766952966369,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5544,
+        "cx": 380.0,
+        "cy": 75.00000000000003,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5545,
+        "cx": 397.6776695296637,
+        "cy": 67.67766952966369,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5546,
+        "cx": 405.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5547,
+        "cx": 397.6776695296637,
+        "cy": 32.32233047033631,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5548,
+        "cx": 380.0,
+        "cy": 24.99999999999998,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5549,
+        "cx": 362.3223304703363,
+        "cy": 32.32233047033631,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5550,
+        "cx": 355.0,
+        "cy": 50.0,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5551,
+        "cx": 356.9030116872178,
+        "cy": 59.56708580912725,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5552,
+        "cx": 370.4329141908727,
+        "cy": 73.0969883127822,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5553,
+        "cx": 389.5670858091273,
+        "cy": 73.09698831278217,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5554,
+        "cx": 403.0969883127822,
+        "cy": 59.56708580912726,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5555,
+        "cx": 403.0969883127822,
+        "cy": 40.43291419087275,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5556,
+        "cx": 389.5670858091273,
+        "cy": 26.90301168721781,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5557,
+        "cx": 370.4329141908727,
+        "cy": 26.90301168721783,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 5558,
+        "cx": 356.9030116872178,
+        "cy": 40.43291419087275,
+        "r": 2.0
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 5559,
+        "points": [
+          [
+            422.3336327119301,
+            23.39429494616982
+          ],
+          [
+            "ARC_CW",
+            [
+              422.3336327119301,
+              23.39429494616982
+            ],
+            [
+              330.0000000000011,
+              49.999989364704014
+            ],
+            [
+              380.0,
+              50.00000000000003,
+              50.00000000000004
+            ],
+            411,
+            -0.561095563910037,
+            -2.580496876973836
+          ],
+          [
+            330.00000000000114,
+            49.999989364704035
+          ],
+          [
+            "ARC_CW",
+            [
+              330.00000000000114,
+              49.999989364704035
+            ],
+            [
+              429.74937185533105,
+              54.999999999999986
+            ],
+            [
+              380.0,
+              50.00000000000003,
+              50.00000000000002
+            ],
+            485,
+            -3.141592440883873,
+            -3.0414254451341542
+          ],
+          [
+            415.0,
+            55.0
+          ],
+          [
+            415.0,
+            45.0
+          ],
+          [
+            422.3336327119301,
+            23.39429494616983
+          ]
+        ],
+        "closed": true
+      }
+    ]
+  },
+  "operation_cycles": [
+    {
+      "tool_id": 1054,
+      "is_current": true,
+      "operations": [
+        {
+          "_type": "OperationTreeItem",
+          "operation": 5,
+          "cutter": 1054,
+          "tool_preset": 1053,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "eh_diameter": 25.0,
+          "entry_mode": null,
+          "trc_rate": null,
+          "rpm": null,
+          "active": true,
+          "shape_id": 5542
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 5,
+          "cutter": 1054,
+          "tool_preset": 1053,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "eh_diameter": 25.0,
+          "entry_mode": null,
+          "trc_rate": null,
+          "rpm": null,
+          "active": true,
+          "shape_id": 5553
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 1,
+          "cutter": 1054,
+          "tool_preset": 1053,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "rpm": null,
+          "active": true,
+          "shape_id": 5559
+        }
+      ]
+    }
+  ]
+}

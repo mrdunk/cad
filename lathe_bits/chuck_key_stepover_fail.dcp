@@ -1,7 +1,7 @@
 {
   "material": {
     "_type": "WorkpieceTreeItem",
-    "material": 4,
+    "material": null,
     "thickness": 20.0,
     "clearance": 5.0,
     "safe_entry_z": 1.0
@@ -9,7 +9,7 @@
   "tools": [
     {
       "_type": "EndMillCutter",
-      "id": 1052,
+      "id": 1050,
       "name": "cheapo 2F 3.2/15",
       "material": "carbide",
       "diameter": 3.2,
@@ -20,7 +20,7 @@
   "tool_presets": [
     {
       "_type": "EndMillPreset",
-      "id": 1053,
+      "id": 1051,
       "name": "steel",
       "rpm": 8000.0,
       "hfeed": 200.0,
@@ -34,14 +34,35 @@
       "pocket_strategy": 5,
       "axis_angle": 0.0,
       "eh_diameter": 0.5,
+      "entry_mode": null,
       "roughing_offset": 0.3,
-      "toolbit": 1052
+      "toolbit": 1050
+    },
+    {
+      "_type": "EndMillPreset",
+      "id": 1052,
+      "name": "steel",
+      "rpm": 8000.0,
+      "hfeed": 200.0,
+      "vfeed": 20.0,
+      "maxdoc": 20.0,
+      "offset": 0.0,
+      "stepover": 0.05,
+      "direction": 0,
+      "extra_width": 0.0,
+      "trc_rate": 0.0,
+      "pocket_strategy": 5,
+      "axis_angle": 0.0,
+      "eh_diameter": 0.5,
+      "entry_mode": null,
+      "roughing_offset": 0.3,
+      "toolbit": 1050
     }
   ],
   "default_presets": [
     {
-      "tool_id": 1052,
-      "preset_id": 1053
+      "tool_id": 1050,
+      "preset_id": 1052
     }
   ],
   "drawing": {
@@ -257,19 +278,14 @@
   "operation_cycles": [
     {
       "tool_id": 1050,
-      "is_current": false,
-      "operations": []
-    },
-    {
-      "tool_id": 1052,
       "is_current": true,
       "operations": [
         {
           "_type": "OperationTreeItem",
           "operation": 7,
-          "cutter": 1052,
-          "tool_preset": 1053,
-          "depth": 17.0,
+          "cutter": 1050,
+          "tool_preset": 1052,
+          "depth": null,
           "start_depth": 0,
           "tab_height": null,
           "tab_count": null,
@@ -283,27 +299,28 @@
           "pocket_strategy": null,
           "axis_angle": null,
           "direction": null,
-          "doc": null,
+          "doc": 20.0,
           "hfeed": null,
           "vfeed": null,
           "offset": null,
           "roughing_offset": null,
-          "stepover": 3.9,
+          "stepover": null,
           "eh_diameter": null,
+          "entry_mode": null,
           "trc_rate": null,
           "rpm": null,
           "active": true,
-          "shape_id": 1
+          "shape_id": 3
         },
         {
           "_type": "OperationTreeItem",
-          "operation": 2,
-          "cutter": 1052,
-          "tool_preset": 1053,
-          "depth": 17.0,
+          "operation": 3,
+          "cutter": 1050,
+          "tool_preset": 1052,
+          "depth": null,
           "start_depth": 0,
           "tab_height": null,
-          "tab_count": 0,
+          "tab_count": null,
           "user_tabs": [],
           "entry_exit": [],
           "dogbones": 0,
@@ -319,10 +336,11 @@
           "roughing_offset": null,
           "stepover": null,
           "eh_diameter": null,
+          "entry_mode": null,
           "trc_rate": null,
           "rpm": null,
-          "active": false,
-          "shape_id": 3
+          "active": true,
+          "shape_id": 2
         }
       ]
     }
