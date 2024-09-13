@@ -1,0 +1,1178 @@
+{
+  "material": {
+    "_type": "WorkpieceTreeItem",
+    "material": 1,
+    "thickness": 12.1,
+    "clearance": 15.0,
+    "safe_entry_z": 1.0
+  },
+  "tools": [
+    {
+      "_type": "EndMillCutter",
+      "id": 1059,
+      "name": "Cheapy 1/8",
+      "material": "carbide",
+      "diameter": 3.175,
+      "length": 20.0,
+      "flutes": 2,
+      "shape": 0,
+      "angle": 180,
+      "tip_diameter": 0
+    }
+  ],
+  "tool_presets": [
+    {
+      "_type": "EndMillPreset",
+      "id": 1060,
+      "name": "polycarbonate HSM",
+      "rpm": 8000.0,
+      "hfeed": 400.0,
+      "vfeed": 100.0,
+      "maxdoc": 4.2,
+      "offset": 0.0,
+      "stepover": 0.6,
+      "direction": 0,
+      "extra_width": 0.0,
+      "trc_rate": 0.6,
+      "pocket_strategy": 5,
+      "axis_angle": 0.0,
+      "eh_diameter": 0.6,
+      "entry_mode": 2,
+      "roughing_offset": 0.0,
+      "toolbit": 1059
+    }
+  ],
+  "default_presets": [
+    {
+      "tool_id": 1059,
+      "preset_id": 1060
+    }
+  ],
+  "drawing": {
+    "header": {
+      "_type": "DrawingTreeItem",
+      "x_offset": 0,
+      "y_offset": 0
+    },
+    "items": [
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 1835,
+        "cx": 380.0000000012822,
+        "cy": -5.684341886080801e-14,
+        "r": 4.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 1836,
+        "cx": 190.0,
+        "cy": -2.842170943040401e-14,
+        "r": 4.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 1837,
+        "cx": 39.99999999999997,
+        "cy": 0.0,
+        "r": 4.0
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 1838,
+        "points": [
+          [
+            379.9999978662372,
+            -13.99999999999989
+          ],
+          [
+            "ARC_CCW",
+            [
+              379.9999978662372,
+              -13.99999999999989
+            ],
+            [
+              380.0000000012822,
+              13.99999999999994
+            ],
+            [
+              380.0000000263309,
+              -5.844131362752626e-14,
+              13.999999999999998
+            ],
+            501,
+            -1.5707964810873027,
+            3.1415928096713914
+          ],
+          [
+            362.0,
+            13.99999999999994
+          ],
+          [
+            362.0,
+            36.99999999999996
+          ],
+          [
+            350.0000000004331,
+            36.99999999983639
+          ],
+          [
+            210.0,
+            89.99999999999997
+          ],
+          [
+            67.12645361239862,
+            135.0
+          ],
+          [
+            35.07932664209576,
+            143.4147863932903
+          ],
+          [
+            "ARC_CCW",
+            [
+              35.07932664209575,
+              143.4147863932903
+            ],
+            [
+              10.0,
+              124.07052520649658
+            ],
+            [
+              29.999999999999986,
+              124.07052520649654,
+              19.999999999999986
+            ],
+            291,
+            1.3140174813279537,
+            1.8275751722618372
+          ],
+          [
+            10.0,
+            113.7315415632991
+          ],
+          [
+            "ARC_CCW",
+            [
+              10.0,
+              113.73154156329912
+            ],
+            [
+              23.707226618616367,
+              94.74731118199186
+            ],
+            [
+              29.999999999999993,
+              113.73154156329912,
+              19.999999999999993
+            ],
+            200,
+            -3.1415926535897927,
+            1.2507203610656283
+          ],
+          [
+            23.70722661861637,
+            94.74731118199185
+          ],
+          [
+            "ARC_CW",
+            [
+              23.70722661861637,
+              94.74731118199185
+            ],
+            [
+              34.51204436436061,
+              65.38655066534736
+            ],
+            [
+              17.414453237232678,
+              75.7630808006845,
+              20.000000000000096
+            ],
+            286,
+            1.2507203610656263,
+            -1.79619803898283
+          ],
+          [
+            34.512044364360605,
+            65.38655066534736
+          ],
+          [
+            "ARC_CCW",
+            [
+              34.512044364360605,
+              65.38655066534736
+            ],
+            [
+              21.166740178972915,
+              28.73501134500655
+            ],
+            [
+              120.00000000000001,
+              13.503899988661942,
+              100.00000000000009
+            ],
+            63,
+            2.596114975672591,
+            0.3925714276255867
+          ],
+          [
+            21.16674017897293,
+            28.73501134500655
+          ],
+          [
+            "ARC_CW",
+            [
+              21.16674017897293,
+              28.73501134500655
+            ],
+            [
+              16.84005292886053,
+              19.068740169765256
+            ],
+            [
+              1.4000882147675568,
+              31.78123361627535,
+              19.999999999999954
+            ],
+            86,
+            -0.15290625029160965,
+            -0.5359111633618665
+          ],
+          [
+            16.840052928860537,
+            19.068740169765263
+          ],
+          [
+            "ARC_CCW",
+            [
+              16.840052928860537,
+              19.068740169765263
+            ],
+            [
+              16.84005292886053,
+              -19.06874016976522
+            ],
+            [
+              40.000000000000036,
+              1.918170614645716e-14,
+              30.00000000000003
+            ],
+            220,
+            2.452775239936315,
+            1.3776348273069559
+          ],
+          [
+            16.840052928860526,
+            -19.06874016976522
+          ],
+          [
+            "ARC_CW",
+            [
+              16.840052928860526,
+              -19.06874016976522
+            ],
+            [
+              21.166740178972898,
+              -28.73501134500644
+            ],
+            [
+              1.4000882147676705,
+              -31.781233616275227,
+              19.999999999999808
+            ],
+            86,
+            0.6888174136534765,
+            -0.5359111633618665
+          ],
+          [
+            21.166740178972915,
+            -28.73501134500642
+          ],
+          [
+            "ARC_CCW",
+            [
+              21.166740178972915,
+              -28.73501134500642
+            ],
+            [
+              34.51204436436059,
+              -65.38655066534747
+            ],
+            [
+              119.99999999999977,
+              -13.503899988662276,
+              99.99999999999979
+            ],
+            63,
+            -2.988686403298182,
+            0.3925714276255903
+          ],
+          [
+            34.512044364360584,
+            -65.3865506653475
+          ],
+          [
+            "ARC_CW",
+            [
+              34.512044364360584,
+              -65.3865506653475
+            ],
+            [
+              23.707226618616325,
+              -94.7473111819918
+            ],
+            [
+              17.414453237232685,
+              -75.76308080068453,
+              20.000000000000007
+            ],
+            286,
+            0.5454776779171997,
+            -1.796198038982827
+          ],
+          [
+            23.70722661861634,
+            -94.7473111819918
+          ],
+          [
+            "ARC_CCW",
+            [
+              23.70722661861634,
+              -94.7473111819918
+            ],
+            [
+              9.99999999999995,
+              -113.7315415632991
+            ],
+            [
+              29.999999999999993,
+              -113.7315415632991,
+              20.000000000000043
+            ],
+            200,
+            1.8908722925241657,
+            1.2507203610656275
+          ],
+          [
+            9.999999999999954,
+            -124.0705252064965
+          ],
+          [
+            "ARC_CCW",
+            [
+              9.999999999999954,
+              -124.0705252064965
+            ],
+            [
+              35.07932664209575,
+              -143.4147863932903
+            ],
+            [
+              29.999999999999986,
+              -124.07052520649651,
+              20.000000000000032
+            ],
+            291,
+            3.1415926535897927,
+            1.8275751722618394
+          ],
+          [
+            67.12645361239856,
+            -135.0
+          ],
+          [
+            209.9999999999999,
+            -90.00000000000003
+          ],
+          [
+            350.0,
+            -37.00000000000006
+          ],
+          [
+            361.9999999999999,
+            -37.00000000000006
+          ],
+          [
+            361.9999999999999,
+            -14.00000000000006
+          ],
+          [
+            379.9999978662372,
+            -13.99999999999989
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 1855,
+        "points": [
+          [
+            135.020759597578,
+            -61.19432650291944
+          ],
+          [
+            "ARC_CW",
+            [
+              135.020759597578,
+              -61.19432650291944
+            ],
+            [
+              69.99999999999997,
+              -13.503899988662196
+            ],
+            [
+              119.99999999999999,
+              -13.503899988662202,
+              50.000000000000014
+            ],
+            299,
+            -1.2656684035475083,
+            -1.8759242500422848
+          ],
+          [
+            69.99999999999997,
+            13.50389998866219
+          ],
+          [
+            "ARC_CW",
+            [
+              69.99999999999997,
+              13.503899988662193
+            ],
+            [
+              135.020759597578,
+              61.19432650291941
+            ],
+            [
+              119.99999999999997,
+              13.503899988662187,
+              50.00000000000001
+            ],
+            299,
+            3.141592653589793,
+            -1.875924250042285
+          ],
+          [
+            177.8952058518814,
+            47.69042651425724
+          ],
+          [
+            "ARC_CW",
+            [
+              177.8952058518814,
+              47.69042651425723
+            ],
+            [
+              211.86424110996688,
+              -10.00000000000005
+            ],
+            [
+              162.87444625430334,
+              1.4210854715202004e-14,
+              50.000000000000014
+            ],
+            234,
+            1.2656684035475074,
+            -1.467026324337839
+          ],
+          [
+            211.8642411099669,
+            -10.000000000000034
+          ],
+          [
+            "ARC_CW",
+            [
+              211.8642411099669,
+              -10.000000000000034
+            ],
+            [
+              177.8952058518814,
+              -47.69042651425724
+            ],
+            [
+              162.87444625430334,
+              -1.4210854715202004e-14,
+              50.00000000000002
+            ],
+            170,
+            -0.20135792079033085,
+            -1.0643104827571763
+          ],
+          [
+            135.020759597578,
+            -61.19432650291944
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 3428,
+        "points": [
+          [
+            347.8756998411002,
+            31.38864108839094
+          ],
+          [
+            207.8756998406671,
+            84.38864108855454
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 3429,
+        "points": [
+          [
+            208.1975088482906,
+            84.27714881828912
+          ],
+          [
+            65.32396246068924,
+            129.2771488182892
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 3430,
+        "points": [
+          [
+            347.8756998411362,
+            -31.38864108855228
+          ],
+          [
+            207.8756998406732,
+            -84.38864108855225
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 3431,
+        "points": [
+          [
+            208.1975088482906,
+            -84.27714881828916
+          ],
+          [
+            65.32396246068922,
+            -129.2771488182891
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 3432,
+        "points": [
+          [
+            65.60265561976988,
+            129.1967216439619
+          ],
+          [
+            33.55552864946705,
+            137.6115080372522
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 3433,
+        "points": [
+          [
+            65.60265561976982,
+            -129.1967216439619
+          ],
+          [
+            33.55552864946701,
+            -137.6115080372522
+          ]
+        ],
+        "closed": false
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3440,
+        "cx": 59.6502,
+        "cy": 130.76,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3441,
+        "cx": 97.8888,
+        "cy": 119.02,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3442,
+        "cx": 136.041,
+        "cy": 107.004,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3443,
+        "cx": 174.194,
+        "cy": 94.9872,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3444,
+        "cx": 212.268,
+        "cy": 82.7259,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3445,
+        "cx": 249.677,
+        "cy": 68.5639,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3446,
+        "cx": 287.086,
+        "cy": 54.4019,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3447,
+        "cx": 324.495,
+        "cy": 40.24,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3448,
+        "cx": 59.6502,
+        "cy": -130.76,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3449,
+        "cx": 97.8888,
+        "cy": -119.02,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3450,
+        "cx": 136.041,
+        "cy": -107.004,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3451,
+        "cx": 174.193,
+        "cy": -94.9872,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3452,
+        "cx": 212.268,
+        "cy": -82.7259,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3453,
+        "cx": 249.677,
+        "cy": -68.5639,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3454,
+        "cx": 287.086,
+        "cy": -54.4019,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 3455,
+        "cx": 324.495,
+        "cy": -40.24,
+        "r": 1.6
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 4330,
+        "cx": 5.0,
+        "cy": 0.0,
+        "r": 3.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 4331,
+        "cx": 410.0000000012822,
+        "cy": -5.684341886080801e-14,
+        "r": 4.0
+      }
+    ]
+  },
+  "operation_cycles": [
+    {
+      "tool_id": 1059,
+      "is_current": true,
+      "operations": [
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 4331
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 4330
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 1,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [
+            [
+              [
+                7.859017084511493,
+                5.521130563203576
+              ],
+              [
+                397.0987217903636,
+                3.6807537088023836
+              ]
+            ]
+          ],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 1838
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 2,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [
+            [
+              [
+                208.76682368997493,
+                2.147106330134724
+              ],
+              [
+                74.72604279442146,
+                3.3740242330688517
+              ]
+            ]
+          ],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 1855
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 3448
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 3449
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 3450
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 3451
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 3452
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 3453
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 3454
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1059,
+          "tool_preset": 1060,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 3455
+        }
+      ]
+    }
+  ],
+  "wall_profiles": []
+}

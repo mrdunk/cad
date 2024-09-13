@@ -1,0 +1,1052 @@
+G17 G90 G40 G21
+G0 Z15
+G0 X0 Y0
+(Start operation: PeckDrill)
+G0 X410 Y-0
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X5 Y0
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+(Start operation: HSMPocket)
+(Start cutpath)
+G0 X39.131 Y-0.392
+(Start enter cut at -4.200)
+G0 Z1
+F206.16
+(Start helical move from 1.000 to -4.200)
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z0.252 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-0.496 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-1.244 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-1.992 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-2.74 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-3.489 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-3.844 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-4.2 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-4.2 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-4.2 I-0.868 J-0.392
+G1 Z-4.2
+(End helical move)
+F400.00
+G1 X39.132 Y-0.391
+(End enter cut)
+(Start subpath)
+G1 X39.131 Y-0.392
+G2 X38.57 Y0.476 I0.392 J0.868
+G2 X39.999 Y1.905 I1.429 J0
+G2 X41.904 Y-0 I0 J-1.905
+G1 X41.195 Y0.879
+G1 X39.999 Y2.362
+G2 X39.999 Y-2.362 I0 J-2.362
+G2 X39.999 Y2.362 I-0 J2.362
+(End subpath)
+G0 Z15
+G0 X39.131 Y-0.392
+(Start enter cut at -8.400)
+G0 Z-4
+F206.16
+(Start helical move from -4.000 to -8.400)
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-4.748 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-5.496 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-6.244 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-6.992 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-7.696 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-8.4 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-8.4 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-8.4 I-0.868 J-0.392
+G1 Z-8.4
+(End helical move)
+F400.00
+G1 X39.132 Y-0.391
+(End enter cut)
+(Start subpath)
+G1 X39.131 Y-0.392
+G2 X38.57 Y0.476 I0.392 J0.868
+G2 X39.999 Y1.905 I1.429 J0
+G2 X41.904 Y-0 I0 J-1.905
+G1 X41.195 Y0.879
+G1 X39.999 Y2.362
+G2 X39.999 Y-2.362 I0 J-2.362
+G2 X39.999 Y2.362 I-0 J2.362
+(End subpath)
+G0 Z15
+G0 X39.131 Y-0.392
+(Start enter cut at -12.100)
+G0 Z-8.2
+F206.16
+(Start helical move from -8.200 to -12.100)
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-8.948 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-9.696 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-10.444 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-11.192 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-11.646 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-12.1 I-0.868 J-0.392
+G1 X39.131 Y-0.392
+G2 X40.867 Y0.392 Z-12.1 I0.868 J0.392
+G2 X39.131 Y-0.392 Z-12.1 I-0.868 J-0.392
+G1 Z-12.1
+(End helical move)
+F400.00
+G1 X39.132 Y-0.391
+(End enter cut)
+(Start subpath)
+G1 X39.131 Y-0.392
+G2 X38.57 Y0.476 I0.392 J0.868
+G2 X39.999 Y1.905 I1.429 J0
+G2 X41.904 Y-0 I0 J-1.905
+G1 X41.195 Y0.879
+G1 X39.999 Y2.362
+G2 X39.999 Y-2.362 I0 J-2.362
+G2 X39.999 Y2.362 I-0 J2.362
+(End subpath)
+G0 Z15
+(End cutpath)
+(Start cutpath)
+G0 X40.022 Y-2.413
+(Start enter cut at -4.200)
+G0 Z1
+(Start ramped move from 1.000 to -4.200)
+G1 X40.022 Y-2.413
+F412.31
+(Start ramp-in subpath)
+G2 X39.876 Y2.408 Z-0.868 I-0.021 J2.412
+G1 X39.92 Y2.409 Z-0.879
+G2 X40.08 Y-2.409 Z-2.773 I0.081 J-2.409
+G1 X40.022 Y-2.413 Z-2.788
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X40.08 Y-2.409
+G3 X39.92 Y2.409 I-0.079 J2.409
+G1 X39.876 Y2.408
+G3 X40.022 Y-2.413 I0.125 J-2.408
+(End ramp-back subpath)
+F412.31
+(Start ramp-in subpath)
+G2 X38.257 Y1.665 Z-4.2 I-0.021 J2.412
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X40.022 Y-2.413 I1.743 J-1.666
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G2 X39.876 Y2.408 I-0.021 J2.412
+G1 X39.92 Y2.409
+G2 X40.08 Y-2.409 I0.081 J-2.409
+G1 X40.022 Y-2.413
+(End subpath)
+(Start enter cut at -8.400)
+(Start ramped move from -4.200 to -8.400)
+F412.31
+(Start ramp-in subpath)
+G2 X39.876 Y2.408 Z-6.068 I-0.021 J2.412
+G1 X39.92 Y2.409 Z-6.079
+G2 X40.421 Y-2.374 Z-7.888 I0.081 J-2.409
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X39.92 Y2.409 I-0.419 J2.374
+G1 X39.876 Y2.408
+G3 X40.022 Y-2.413 I0.125 J-2.408
+(End ramp-back subpath)
+F412.31
+(Start ramp-in subpath)
+G2 X38.203 Y-1.609 Z-8.4 I-0.021 J2.412
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X40.022 Y-2.413 I1.798 J1.608
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G2 X39.876 Y2.408 I-0.021 J2.412
+G1 X39.92 Y2.409
+G2 X40.08 Y-2.409 I0.081 J-2.409
+G1 X40.022 Y-2.413
+(End subpath)
+(Start enter cut at -12.100)
+(Start ramped move from -8.400 to -12.100)
+F412.31
+(Start ramp-in subpath)
+G2 X39.876 Y2.408 Z-10.268 I-0.021 J2.412
+G1 X39.92 Y2.409 Z-10.279
+G2 X41.342 Y-2.003 Z-11.837 I0.081 J-2.409
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X39.92 Y2.409 I-1.34 J2.003
+G1 X39.876 Y2.408
+G3 X40.022 Y-2.413 I0.125 J-2.408
+(End ramp-back subpath)
+F412.31
+(Start ramp-in subpath)
+G2 X39.003 Y-2.197 Z-12.1 I-0.021 J2.412
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X40.022 Y-2.413 I0.998 J2.196
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G2 X39.876 Y2.408 I-0.021 J2.412
+G1 X39.92 Y2.409
+G2 X40.08 Y-2.409 I0.081 J-2.409
+G1 X40.022 Y-2.413
+(End subpath)
+G0 Z15
+(End cutpath)
+(End operation: HSMPocket)
+(Start operation: HSMPocket)
+(Start cutpath)
+G0 X189.131 Y-0.392
+(Start enter cut at -4.200)
+G0 Z1
+F206.16
+(Start helical move from 1.000 to -4.200)
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z0.252 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-0.496 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-1.244 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-1.992 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-2.74 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-3.489 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-3.844 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-4.2 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-4.2 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-4.2 I-0.868 J-0.392
+G1 Z-4.2
+(End helical move)
+F400.00
+G1 X189.132 Y-0.391
+(End enter cut)
+(Start subpath)
+G1 X189.131 Y-0.392
+G2 X188.57 Y0.476 I0.392 J0.868
+G2 X189.999 Y1.905 I1.429 J0
+G2 X191.904 Y-0 I0 J-1.905
+G1 X191.195 Y0.879
+G1 X189.999 Y2.362
+G2 X189.999 Y-2.362 I0 J-2.362
+G2 X189.999 Y2.362 I-0 J2.362
+(End subpath)
+G0 Z15
+G0 X189.131 Y-0.392
+(Start enter cut at -8.400)
+G0 Z-4
+F206.16
+(Start helical move from -4.000 to -8.400)
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-4.748 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-5.496 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-6.244 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-6.992 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-7.696 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-8.4 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-8.4 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-8.4 I-0.868 J-0.392
+G1 Z-8.4
+(End helical move)
+F400.00
+G1 X189.132 Y-0.391
+(End enter cut)
+(Start subpath)
+G1 X189.131 Y-0.392
+G2 X188.57 Y0.476 I0.392 J0.868
+G2 X189.999 Y1.905 I1.429 J0
+G2 X191.904 Y-0 I0 J-1.905
+G1 X191.195 Y0.879
+G1 X189.999 Y2.362
+G2 X189.999 Y-2.362 I0 J-2.362
+G2 X189.999 Y2.362 I-0 J2.362
+(End subpath)
+G0 Z15
+G0 X189.131 Y-0.392
+(Start enter cut at -12.100)
+G0 Z-8.2
+F206.16
+(Start helical move from -8.200 to -12.100)
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-8.948 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-9.696 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-10.444 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-11.192 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-11.646 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-12.1 I-0.868 J-0.392
+G1 X189.131 Y-0.392
+G2 X190.867 Y0.392 Z-12.1 I0.868 J0.392
+G2 X189.131 Y-0.392 Z-12.1 I-0.868 J-0.392
+G1 Z-12.1
+(End helical move)
+F400.00
+G1 X189.132 Y-0.391
+(End enter cut)
+(Start subpath)
+G1 X189.131 Y-0.392
+G2 X188.57 Y0.476 I0.392 J0.868
+G2 X189.999 Y1.905 I1.429 J0
+G2 X191.904 Y-0 I0 J-1.905
+G1 X191.195 Y0.879
+G1 X189.999 Y2.362
+G2 X189.999 Y-2.362 I0 J-2.362
+G2 X189.999 Y2.362 I-0 J2.362
+(End subpath)
+G0 Z15
+(End cutpath)
+(Start cutpath)
+G0 X190.022 Y-2.413
+(Start enter cut at -4.200)
+G0 Z1
+(Start ramped move from 1.000 to -4.200)
+G1 X190.022 Y-2.413
+F412.31
+(Start ramp-in subpath)
+G2 X189.875 Y2.408 Z-0.868 I-0.021 J2.412
+G1 X189.92 Y2.409 Z-0.879
+G2 X190.08 Y-2.409 Z-2.773 I0.081 J-2.409
+G1 X190.022 Y-2.413 Z-2.788
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X190.08 Y-2.409
+G3 X189.92 Y2.409 I-0.079 J2.409
+G1 X189.875 Y2.408
+G3 X190.022 Y-2.413 I0.125 J-2.408
+(End ramp-back subpath)
+F412.31
+(Start ramp-in subpath)
+G2 X188.257 Y1.665 Z-4.2 I-0.021 J2.412
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X190.022 Y-2.413 I1.743 J-1.666
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G2 X189.875 Y2.408 I-0.021 J2.412
+G1 X189.92 Y2.409
+G2 X190.08 Y-2.409 I0.081 J-2.409
+G1 X190.022 Y-2.413
+(End subpath)
+(Start enter cut at -8.400)
+(Start ramped move from -4.200 to -8.400)
+F412.31
+(Start ramp-in subpath)
+G2 X189.875 Y2.408 Z-6.068 I-0.021 J2.412
+G1 X189.92 Y2.409 Z-6.079
+G2 X190.421 Y-2.374 Z-7.888 I0.081 J-2.409
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X189.92 Y2.409 I-0.419 J2.374
+G1 X189.875 Y2.408
+G3 X190.022 Y-2.413 I0.125 J-2.408
+(End ramp-back subpath)
+F412.31
+(Start ramp-in subpath)
+G2 X188.203 Y-1.609 Z-8.4 I-0.021 J2.412
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X190.022 Y-2.413 I1.798 J1.608
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G2 X189.875 Y2.408 I-0.021 J2.412
+G1 X189.92 Y2.409
+G2 X190.08 Y-2.409 I0.081 J-2.409
+G1 X190.022 Y-2.413
+(End subpath)
+(Start enter cut at -12.100)
+(Start ramped move from -8.400 to -12.100)
+F412.31
+(Start ramp-in subpath)
+G2 X189.875 Y2.408 Z-10.268 I-0.021 J2.412
+G1 X189.92 Y2.409 Z-10.279
+G2 X191.342 Y-2.003 Z-11.838 I0.081 J-2.409
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X189.92 Y2.409 I-1.34 J2.003
+G1 X189.875 Y2.408
+G3 X190.022 Y-2.413 I0.125 J-2.408
+(End ramp-back subpath)
+F412.31
+(Start ramp-in subpath)
+G2 X189.003 Y-2.197 Z-12.1 I-0.021 J2.412
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X190.022 Y-2.413 I0.998 J2.196
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G2 X189.875 Y2.408 I-0.021 J2.412
+G1 X189.92 Y2.409
+G2 X190.08 Y-2.409 I0.081 J-2.409
+G1 X190.022 Y-2.413
+(End subpath)
+G0 Z15
+(End cutpath)
+(End operation: HSMPocket)
+(Start operation: HSMPocket)
+(Start cutpath)
+G0 X379.131 Y-0.392
+(Start enter cut at -4.200)
+G0 Z1
+F206.16
+(Start helical move from 1.000 to -4.200)
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z0.252 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-0.496 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-1.244 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-1.992 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-2.74 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-3.489 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-3.844 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-4.2 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-4.2 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-4.2 I-0.868 J-0.392
+G1 Z-4.2
+(End helical move)
+F400.00
+G1 X379.132 Y-0.391
+(End enter cut)
+(Start subpath)
+G1 X379.131 Y-0.392
+G2 X378.57 Y0.476 I0.392 J0.868
+G2 X379.999 Y1.905 I1.429 J-0
+G2 X381.904 Y-0 I0 J-1.905
+G1 X381.195 Y0.879
+G1 X379.999 Y2.362
+G2 X379.999 Y-2.362 I0 J-2.362
+G2 X379.999 Y2.362 I-0 J2.362
+(End subpath)
+G0 Z15
+G0 X379.131 Y-0.392
+(Start enter cut at -8.400)
+G0 Z-4
+F206.16
+(Start helical move from -4.000 to -8.400)
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-4.748 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-5.496 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-6.244 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-6.992 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-7.696 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-8.4 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-8.4 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-8.4 I-0.868 J-0.392
+G1 Z-8.4
+(End helical move)
+F400.00
+G1 X379.132 Y-0.391
+(End enter cut)
+(Start subpath)
+G1 X379.131 Y-0.392
+G2 X378.57 Y0.476 I0.392 J0.868
+G2 X379.999 Y1.905 I1.429 J-0
+G2 X381.904 Y-0 I0 J-1.905
+G1 X381.195 Y0.879
+G1 X379.999 Y2.362
+G2 X379.999 Y-2.362 I0 J-2.362
+G2 X379.999 Y2.362 I-0 J2.362
+(End subpath)
+G0 Z15
+G0 X379.131 Y-0.392
+(Start enter cut at -12.100)
+G0 Z-8.2
+F206.16
+(Start helical move from -8.200 to -12.100)
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-8.948 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-9.696 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-10.444 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-11.192 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-11.646 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-12.1 I-0.868 J-0.392
+G1 X379.131 Y-0.392
+G2 X380.867 Y0.392 Z-12.1 I0.868 J0.392
+G2 X379.131 Y-0.392 Z-12.1 I-0.868 J-0.392
+G1 Z-12.1
+(End helical move)
+F400.00
+G1 X379.132 Y-0.391
+(End enter cut)
+(Start subpath)
+G1 X379.131 Y-0.392
+G2 X378.57 Y0.476 I0.392 J0.868
+G2 X379.999 Y1.905 I1.429 J-0
+G2 X381.904 Y-0 I0 J-1.905
+G1 X381.195 Y0.879
+G1 X379.999 Y2.362
+G2 X379.999 Y-2.362 I0 J-2.362
+G2 X379.999 Y2.362 I-0 J2.362
+(End subpath)
+G0 Z15
+(End cutpath)
+(Start cutpath)
+G0 X380.022 Y-2.413
+(Start enter cut at -4.200)
+G0 Z1
+(Start ramped move from 1.000 to -4.200)
+G1 X380.022 Y-2.413
+F412.31
+(Start ramp-in subpath)
+G2 X379.875 Y2.408 Z-0.868 I-0.021 J2.412
+G1 X379.92 Y2.409 Z-0.879
+G2 X380.08 Y-2.409 Z-2.773 I0.081 J-2.409
+G1 X380.022 Y-2.413 Z-2.788
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X380.08 Y-2.409
+G3 X379.92 Y2.409 I-0.079 J2.409
+G1 X379.875 Y2.408
+G3 X380.022 Y-2.413 I0.125 J-2.408
+(End ramp-back subpath)
+F412.31
+(Start ramp-in subpath)
+G2 X378.257 Y1.665 Z-4.2 I-0.021 J2.412
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X380.022 Y-2.413 I1.743 J-1.666
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G2 X379.875 Y2.408 I-0.021 J2.412
+G1 X379.92 Y2.409
+G2 X380.08 Y-2.409 I0.081 J-2.409
+G1 X380.022 Y-2.413
+(End subpath)
+(Start enter cut at -8.400)
+(Start ramped move from -4.200 to -8.400)
+F412.31
+(Start ramp-in subpath)
+G2 X379.875 Y2.408 Z-6.068 I-0.021 J2.412
+G1 X379.92 Y2.409 Z-6.079
+G2 X380.421 Y-2.374 Z-7.888 I0.081 J-2.409
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X379.92 Y2.409 I-0.419 J2.374
+G1 X379.875 Y2.408
+G3 X380.022 Y-2.413 I0.125 J-2.408
+(End ramp-back subpath)
+F412.31
+(Start ramp-in subpath)
+G2 X378.203 Y-1.609 Z-8.4 I-0.021 J2.412
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X380.022 Y-2.413 I1.798 J1.608
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G2 X379.875 Y2.408 I-0.021 J2.412
+G1 X379.92 Y2.409
+G2 X380.08 Y-2.409 I0.081 J-2.409
+G1 X380.022 Y-2.413
+(End subpath)
+(Start enter cut at -12.100)
+(Start ramped move from -8.400 to -12.100)
+F412.31
+(Start ramp-in subpath)
+G2 X379.875 Y2.408 Z-10.268 I-0.021 J2.412
+G1 X379.92 Y2.409 Z-10.279
+G2 X381.342 Y-2.003 Z-11.838 I0.081 J-2.409
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X379.92 Y2.409 I-1.34 J2.003
+G1 X379.875 Y2.408
+G3 X380.022 Y-2.413 I0.125 J-2.408
+(End ramp-back subpath)
+F412.31
+(Start ramp-in subpath)
+G2 X379.003 Y-2.197 Z-12.1 I-0.021 J2.412
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G3 X380.022 Y-2.413 I0.998 J2.196
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G2 X379.875 Y2.408 I-0.021 J2.412
+G1 X379.92 Y2.409
+G2 X380.08 Y-2.409 I0.081 J-2.409
+G1 X380.022 Y-2.413
+(End subpath)
+G0 Z15
+(End cutpath)
+(End operation: HSMPocket)
+(Start operation: Contour)
+(Start cutpath)
+G0 X400.549 Y-5.214
+(Start enter cut at -4.200)
+G0 Z1
+(Start ramped move from 1.000 to -4.200)
+F400.00
+G1 X400.549 Y-5.214
+F206.16
+(Start ramp-in subpath)
+G1 X395.108 Y-3.834 Z-0.403
+G3 X393.925 Y7.003 Z-3.188 I-15.111 J3.834
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G2 X395.108 Y-3.834 I-13.928 J-7.004
+G1 X400.549 Y-5.214
+(End ramp-back subpath)
+F206.16
+(Start ramp-in subpath)
+G1 X396.623 Y-4.218 Z-4.2
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X400.549 Y-5.214
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X395.108 Y-3.834
+G3 X380.358 Y15.585 I-15.111 J3.834
+G1 X380.284 Y15.588
+G1 X363.587 Y15.588
+G1 X363.587 Y37
+G3 X362.033 Y38.587 I-1.587 J0
+G1 X362 Y38.587
+G1 X350.29 Y38.587
+G1 X210.562 Y91.485
+G1 X210.492 Y91.51
+G1 X210.477 Y91.514
+G1 X67.602 Y136.514
+G1 X67.531 Y136.535
+G1 X67.528 Y136.535
+G1 X35.483 Y144.951
+G3 X8.414 Y124.383 I-5.481 J-20.883
+G1 X8.412 Y124.32
+G1 X8.412 Y113.48
+G3 X20.962 Y94.127 I21.587 J0.253
+G1 X21.045 Y94.088
+G2 X26.672 Y91.678 I-12.574 J-37.143
+G1 X26.692 Y91.666
+G2 X35.71 Y77.838 I-9.285 J-15.909
+G1 X35.719 Y77.759
+G2 X32.505 Y65.124 I-18.757 J-1.953
+G1 X32.502 Y65.121
+G3 X23.412 Y44.974 I87.546 J-51.627
+G1 X23.216 Y44.38
+G3 X20.129 Y32.097 I96.858 J-30.873
+G1 X20.13 Y32.096
+G2 X19.111 Y26.744 I-40.827 J4.997
+G1 X19.041 Y26.504
+G2 X16.579 Y21.355 I-17.706 J5.303
+G1 X16.534 Y21.291
+G3 X12.201 Y15.005 I31.561 J-26.388
+G1 X12.175 Y14.955
+G3 X8.736 Y-4.529 I27.981 J-14.984
+G1 X6.095 Y-4.908
+(End subpath)
+G0 Z15
+G0 X400.549 Y-5.214
+(Start enter cut at -8.400)
+G0 Z-4
+(Start ramped move from -4.000 to -8.400)
+G1 X400.549 Y-5.214
+F206.16
+(Start ramp-in subpath)
+G1 X395.108 Y-3.834 Z-5.403
+G3 X394.57 Y5.54 Z-7.787 I-15.111 J3.834
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G2 X395.108 Y-3.834 I-14.572 J-5.54
+G1 X400.549 Y-5.214
+(End ramp-back subpath)
+F206.16
+(Start ramp-in subpath)
+G1 X398.174 Y-4.612 Z-8.4
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X400.549 Y-5.214
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X395.108 Y-3.834
+G3 X380.358 Y15.585 I-15.111 J3.834
+G1 X380.284 Y15.588
+G1 X363.587 Y15.588
+G1 X363.587 Y37
+G3 X362.033 Y38.587 I-1.587 J0
+G1 X362 Y38.587
+G1 X350.29 Y38.587
+G1 X210.562 Y91.485
+G1 X210.492 Y91.51
+G1 X210.477 Y91.514
+G1 X67.602 Y136.514
+G1 X67.531 Y136.535
+G1 X67.528 Y136.535
+G1 X35.483 Y144.951
+G3 X8.414 Y124.383 I-5.481 J-20.883
+G1 X8.412 Y124.32
+G1 X8.412 Y113.48
+G3 X20.962 Y94.127 I21.587 J0.253
+G1 X21.045 Y94.088
+G2 X26.672 Y91.678 I-12.574 J-37.143
+G1 X26.692 Y91.666
+G2 X35.71 Y77.838 I-9.285 J-15.909
+G1 X35.719 Y77.759
+G2 X32.505 Y65.124 I-18.757 J-1.953
+G1 X32.502 Y65.121
+G3 X23.412 Y44.974 I87.546 J-51.627
+G1 X23.216 Y44.38
+G3 X20.129 Y32.097 I96.858 J-30.873
+G1 X20.13 Y32.096
+G2 X19.111 Y26.744 I-40.827 J4.997
+G1 X19.041 Y26.504
+G2 X16.579 Y21.355 I-17.706 J5.303
+G1 X16.534 Y21.291
+G3 X12.201 Y15.005 I31.561 J-26.388
+G1 X12.175 Y14.955
+G3 X8.736 Y-4.529 I27.981 J-14.984
+G1 X6.095 Y-4.908
+(End subpath)
+G0 Z15
+G0 X400.549 Y-5.214
+(Start enter cut at -12.100)
+G0 Z-8.2
+(Start ramped move from -8.200 to -12.100)
+G1 X400.549 Y-5.214
+F206.16
+(Start ramp-in subpath)
+G1 X395.108 Y-3.834 Z-9.603
+G3 X394.895 Y4.594 Z-11.738 I-15.111 J3.834
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G2 X395.108 Y-3.834 I-14.897 J-4.595
+G1 X400.549 Y-5.214
+(End ramp-back subpath)
+F206.16
+(Start ramp-in subpath)
+G1 X399.143 Y-4.858 Z-12.1
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X400.549 Y-5.214
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X395.108 Y-3.834
+G3 X380.358 Y15.585 I-15.111 J3.834
+G1 X380.284 Y15.588
+G1 X363.587 Y15.588
+G1 X363.587 Y37
+G3 X362.033 Y38.587 I-1.587 J0
+G1 X362 Y38.587
+G1 X350.29 Y38.587
+G1 X210.562 Y91.485
+G1 X210.492 Y91.51
+G1 X210.477 Y91.514
+G1 X67.602 Y136.514
+G1 X67.531 Y136.535
+G1 X67.528 Y136.535
+G1 X35.483 Y144.951
+G3 X8.414 Y124.383 I-5.481 J-20.883
+G1 X8.412 Y124.32
+G1 X8.412 Y113.48
+G3 X20.962 Y94.127 I21.587 J0.253
+G1 X21.045 Y94.088
+G2 X26.672 Y91.678 I-12.574 J-37.143
+G1 X26.692 Y91.666
+G2 X35.71 Y77.838 I-9.285 J-15.909
+G1 X35.719 Y77.759
+G2 X32.505 Y65.124 I-18.757 J-1.953
+G1 X32.502 Y65.121
+G3 X23.412 Y44.974 I87.546 J-51.627
+G1 X23.216 Y44.38
+G3 X20.129 Y32.097 I96.858 J-30.873
+G1 X20.13 Y32.096
+G2 X19.111 Y26.744 I-40.827 J4.997
+G1 X19.041 Y26.504
+G2 X16.579 Y21.355 I-17.706 J5.303
+G1 X16.534 Y21.291
+G3 X12.201 Y15.005 I31.561 J-26.388
+G1 X12.175 Y14.955
+G3 X8.736 Y-4.529 I27.981 J-14.984
+G1 X6.095 Y-4.908
+(End subpath)
+G0 Z15
+(End cutpath)
+(End operation: Contour)
+(Start operation: Contour)
+(Start cutpath)
+G0 X75.415 Y-5.214
+(Start enter cut at -4.200)
+G0 Z1
+(Start ramped move from 1.000 to -4.200)
+F400.00
+G1 X75.415 Y-5.214
+F206.16
+(Start ramp-in subpath)
+G1 X71.588 Y-5.214 Z0.043
+G1 X71.588 Y7.708 Z-3.188
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X71.588 Y-5.214
+G1 X75.415 Y-5.214
+(End ramp-back subpath)
+F206.16
+(Start ramp-in subpath)
+G1 X71.588 Y-5.214 Z-4.144
+G1 X71.588 Y-4.992 Z-4.2
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X71.588 Y-5.214
+G1 X75.415 Y-5.214
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X71.588 Y-5.214
+G1 X71.588 Y13.795
+G2 X134.54 Y59.681 I48.414 J-0.294
+G1 X134.543 Y59.681
+G1 X177.415 Y46.176
+G2 X211.124 Y-3.969 I-14.541 J-46.177
+G1 X207.616 Y-3.681
+(End subpath)
+G0 Z15
+G0 X75.415 Y-5.214
+(Start enter cut at -8.400)
+G0 Z-4
+(Start ramped move from -4.000 to -8.400)
+G1 X75.415 Y-5.214
+F206.16
+(Start ramp-in subpath)
+G1 X71.588 Y-5.214 Z-4.957
+G1 X71.588 Y6.108 Z-7.787
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X71.588 Y-5.214
+G1 X75.415 Y-5.214
+(End ramp-back subpath)
+F206.16
+(Start ramp-in subpath)
+G1 X72.965 Y-5.214 Z-8.4
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X75.415 Y-5.214
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X71.588 Y-5.214
+G1 X71.588 Y13.795
+G2 X134.54 Y59.681 I48.414 J-0.294
+G1 X134.543 Y59.681
+G1 X177.415 Y46.176
+G2 X211.124 Y-3.969 I-14.541 J-46.177
+G1 X207.616 Y-3.681
+(End subpath)
+G0 Z15
+G0 X75.415 Y-5.214
+(Start enter cut at -12.100)
+G0 Z-8.2
+(Start ramped move from -8.200 to -12.100)
+G1 X75.415 Y-5.214
+F206.16
+(Start ramp-in subpath)
+G1 X71.588 Y-5.214 Z-9.157
+G1 X71.588 Y5.108 Z-11.738
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X71.588 Y-5.214
+G1 X75.415 Y-5.214
+(End ramp-back subpath)
+F206.16
+(Start ramp-in subpath)
+G1 X73.965 Y-5.214 Z-12.1
+(End ramp-in subpath)
+F400.00
+(Start ramp-back subpath)
+G1 X75.415 Y-5.214
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X71.588 Y-5.214
+G1 X71.588 Y13.795
+G2 X134.54 Y59.681 I48.414 J-0.294
+G1 X134.543 Y59.681
+G1 X177.415 Y46.176
+G2 X211.124 Y-3.969 I-14.541 J-46.177
+G1 X207.616 Y-3.681
+(End subpath)
+G0 Z15
+(End cutpath)
+(End operation: Contour)
+(Start operation: PeckDrill)
+G0 X59.65 Y130.76
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X97.889 Y119.02
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X136.041 Y107.004
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X174.194 Y94.987
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X212.268 Y82.726
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X249.677 Y68.564
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X287.086 Y54.402
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+(Start operation: PeckDrill)
+G0 X324.495 Y40.24
+G0 Z1
+F100.00
+G1 Z-4.2
+G0 Z1
+G1 Z-8.4
+G0 Z1
+G1 Z-12.1
+G0 Z1
+G0 Z15
+(End operation: PeckDrill)
+G0 X0 Y0
+M2

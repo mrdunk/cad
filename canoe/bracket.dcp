@@ -1,0 +1,255 @@
+{
+  "material": {
+    "_type": "WorkpieceTreeItem",
+    "material": 1,
+    "thickness": 12.1,
+    "clearance": 15.0,
+    "safe_entry_z": 1.0
+  },
+  "tools": [
+    {
+      "_type": "EndMillCutter",
+      "id": 1066,
+      "name": "Cheapy 1/8",
+      "material": "carbide",
+      "diameter": 3.175,
+      "length": 20.0,
+      "flutes": 2,
+      "shape": 0,
+      "angle": 180,
+      "tip_diameter": 0
+    }
+  ],
+  "tool_presets": [
+    {
+      "_type": "EndMillPreset",
+      "id": 1065,
+      "name": "polycarbonate HSM",
+      "rpm": 8000.0,
+      "hfeed": 400.0,
+      "vfeed": 100.0,
+      "maxdoc": 4.2,
+      "offset": 0.0,
+      "stepover": 0.6,
+      "direction": 0,
+      "extra_width": 0.0,
+      "trc_rate": 0.6,
+      "pocket_strategy": 5,
+      "axis_angle": 0.0,
+      "eh_diameter": 0.6,
+      "entry_mode": 2,
+      "roughing_offset": 0.0,
+      "toolbit": 1066
+    }
+  ],
+  "default_presets": [
+    {
+      "tool_id": 1066,
+      "preset_id": 1065
+    }
+  ],
+  "drawing": {
+    "header": {
+      "_type": "DrawingTreeItem",
+      "x_offset": 0,
+      "y_offset": 0
+    },
+    "items": [
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 4501,
+        "cx": 36.00000000000016,
+        "cy": 50.00000213504492,
+        "r": 4.0
+      },
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 4502,
+        "points": [
+          [
+            1.0000000000001639,
+            8.000002135044923
+          ],
+          [
+            "ARC_CCW",
+            [
+              1.0000000000001639,
+              8.000002135044923
+            ],
+            [
+              4.000000000000163,
+              5.000002135044923
+            ],
+            [
+              4.000000000000164,
+              8.000002135044923,
+              3.0000000000000004
+            ],
+            250,
+            3.141592653589793,
+            1.5707963267948966
+          ],
+          [
+            68.00000000000017,
+            5.000002135044923
+          ],
+          [
+            "ARC_CCW",
+            [
+              68.00000000000017,
+              5.000002135044923
+            ],
+            [
+              71.00000000000017,
+              8.000002135044923
+            ],
+            [
+              68.00000000000017,
+              8.000002135044923,
+              3.0
+            ],
+            250,
+            -1.5707963267948966,
+            1.5707963267948963
+          ],
+          [
+            71.00000000000017,
+            20.00000213504492
+          ],
+          [
+            50.00000000000016,
+            20.00000213504492
+          ],
+          [
+            49.99999999999999,
+            49.99999999999999
+          ],
+          [
+            "ARC_CCW",
+            [
+              49.99999999999999,
+              49.999999999999986
+            ],
+            [
+              22.000000000000156,
+              50.00000213504493
+            ],
+            [
+              36.000000000000156,
+              50.00000213376277,
+              13.999999999999998
+            ],
+            501,
+            -1.5241162693817967e-07,
+            3.1415928059098372
+          ],
+          [
+            22.00000000000016,
+            20.00000213504492
+          ],
+          [
+            1.000000000000163,
+            20.00000213504492
+          ],
+          [
+            1.000000000000163,
+            8.000002135044923
+          ]
+        ],
+        "closed": true
+      }
+    ]
+  },
+  "operation_cycles": [
+    {
+      "tool_id": 1066,
+      "is_current": true,
+      "operations": [
+        {
+          "_type": "OperationTreeItem",
+          "operation": 3,
+          "cutter": 1066,
+          "tool_preset": 1065,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 4501
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 1,
+          "cutter": 1066,
+          "tool_preset": 1065,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": 1.0,
+          "tab_count": null,
+          "user_tabs": [
+            [
+              5.870370370370452,
+              4.732510288065846
+            ],
+            [
+              35.50000000000008,
+              64.09465020576131
+            ],
+            [
+              63.895061728395135,
+              5.041152263374485
+            ]
+          ],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 4502
+        }
+      ]
+    }
+  ],
+  "wall_profiles": []
+}
