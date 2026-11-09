@@ -1,0 +1,182 @@
+G17 G90 G40 G21
+G0 Z15
+G0 X0 Y0
+(Start operation: Engrave)
+(Start cutpath)
+G0 Z15
+G0 X0 Y0
+(Start enter cut at -1.000)
+G0 Z1
+(Start ramped move from 1.000 to -1.000)
+F280.00
+G1 X0 Y0
+F144.31
+(Start ramp-in subpath)
+G1 X0 Y8 Z-1
+(End ramp-in subpath)
+F280.00
+(Start ramp-back subpath)
+G1 X0 Y0
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X0 Y25.62
+(End subpath)
+G0 Z15
+G0 X0 Y0
+(Start enter cut at -2.000)
+G0 Z-0.8
+(Start ramped move from -0.800 to -2.000)
+G1 X0 Y0
+F144.31
+(Start ramp-in subpath)
+G1 X0 Y4.8 Z-2
+(End ramp-in subpath)
+F280.00
+(Start ramp-back subpath)
+G1 X0 Y0
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X0 Y25.62
+(End subpath)
+G0 Z15
+G0 X0 Y0
+(Start enter cut at -3.000)
+G0 Z-1.8
+(Start ramped move from -1.800 to -3.000)
+G1 X0 Y0
+F144.31
+(Start ramp-in subpath)
+G1 X0 Y4.8 Z-3
+(End ramp-in subpath)
+F280.00
+(Start ramp-back subpath)
+G1 X0 Y0
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X0 Y25.62
+(End subpath)
+G0 Z15
+G0 X0 Y0
+(Start enter cut at -4.000)
+G0 Z-2.8
+(Start ramped move from -2.800 to -4.000)
+G1 X0 Y0
+F144.31
+(Start ramp-in subpath)
+G1 X0 Y4.8 Z-4
+(End ramp-in subpath)
+F280.00
+(Start ramp-back subpath)
+G1 X0 Y0
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X0 Y25.62
+(End subpath)
+G0 Z15
+G0 X0 Y0
+(Start enter cut at -5.000)
+G0 Z-3.8
+(Start ramped move from -3.800 to -5.000)
+G1 X0 Y0
+F144.31
+(Start ramp-in subpath)
+G1 X0 Y4.8 Z-5
+(End ramp-in subpath)
+F280.00
+(Start ramp-back subpath)
+G1 X0 Y0
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X0 Y25.62
+(End subpath)
+G0 Z15
+G0 X0 Y0
+(Start enter cut at -6.000)
+G0 Z-4.8
+(Start ramped move from -4.800 to -6.000)
+G1 X0 Y0
+F144.31
+(Start ramp-in subpath)
+G1 X0 Y4.8 Z-6
+(End ramp-in subpath)
+F280.00
+(Start ramp-back subpath)
+G1 X0 Y0
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X0 Y25.62
+(End subpath)
+G0 Z15
+G0 X0 Y0
+(Start enter cut at -7.000)
+G0 Z-5.8
+(Start ramped move from -5.800 to -7.000)
+G1 X0 Y0
+F144.31
+(Start ramp-in subpath)
+G1 X0 Y4.8 Z-7
+(End ramp-in subpath)
+F280.00
+(Start ramp-back subpath)
+G1 X0 Y0
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X0 Y25.62
+(End subpath)
+G0 Z15
+G0 X0 Y0
+(Start enter cut at -8.000)
+G0 Z-6.8
+(Start ramped move from -6.800 to -8.000)
+G1 X0 Y0
+F144.31
+(Start ramp-in subpath)
+G1 X0 Y4.8 Z-8
+(End ramp-in subpath)
+F280.00
+(Start ramp-back subpath)
+G1 X0 Y0
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X0 Y25.62
+(End subpath)
+G0 Z15
+G0 X0 Y0
+(Start enter cut at -8.500)
+G0 Z-7.8
+(Start ramped move from -7.800 to -8.500)
+G1 X0 Y0
+F144.31
+(Start ramp-in subpath)
+G1 X0 Y2.8 Z-8.5
+(End ramp-in subpath)
+F280.00
+(Start ramp-back subpath)
+G1 X0 Y0
+(End ramp-back subpath)
+(End ramped move - upward direction detected)
+(End enter cut)
+(Start subpath)
+G1 X0 Y25.62
+(End subpath)
+G0 Z15
+(End cutpath)
+(End operation: Engrave)
+G0 X0 Y0
+M2

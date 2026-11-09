@@ -31,9 +31,9 @@ $EXTMIN
   9
 $EXTMAX
  10
-4400
+4000
  20
-3300
+3400
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-sail
+2_sail
   9
 $CELTYPE
   6
@@ -801,6 +801,10 @@ $PEXTMAX
  30
 0
   9
+$GRIDMODE
+ 70
+    1
+  9
 $SNAPSTYLE
  70
     0
@@ -1111,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-3477.331556683046
+2071.994884910486
  22
-2086.398934009827
+1787.148337595908
  13
 0
  23
@@ -1139,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-6643.748762415607
+3384.398976982097
  41
-1.370689655172414
+1.385286783042394
  42
 50
  43
@@ -2251,9 +2255,9 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-coe
+1.5_sail
  70
-    0
+    1
  62
     7
   6
@@ -2273,9 +2277,9 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-sail
+1_coe
  70
-    0
+    1
  62
     7
   6
@@ -2295,9 +2299,119 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-spars
+1_sail
  70
     0
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+4D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+1_sail_rotated
+ 70
+    1
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+4E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+1_sheet_angle
+ 70
+    1
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+4F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+1_sprit
+ 70
+    1
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+50
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+2_sail
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+51
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+mast
+ 70
+    1
  62
     7
   6
@@ -2323,7 +2437,7 @@ AcDbSymbolTable
   0
 STYLE
   5
-4D
+52
 330
 2
 100
@@ -2407,7 +2521,7 @@ ACAD
   0
 APPID
   5
-4E
+53
 330
 9
 100
@@ -2439,7 +2553,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-4F
+54
 330
 A
 100
@@ -2451,7 +2565,7 @@ Standard
  70
     0
  40
-1
+2.5
  41
 2.5
  42
@@ -2475,7 +2589,7 @@ Standard
 141
 0.09
 142
-2.5
+0
 143
 25.4
 144
@@ -2503,7 +2617,7 @@ Standard
  77
     0
  78
-    1
+    8
  79
     0
 170
@@ -2541,7 +2655,7 @@ Standard
 277
     2
 278
-    0
+   44
 279
     0
 280
@@ -2563,7 +2677,7 @@ Standard
 289
     3
 340
-standard
+STANDARD
 341
 
 371
@@ -2713,7 +2827,7 @@ ENTITIES
   0
 LINE
   5
-50
+55
 100
 AcDbEntity
   8
@@ -2737,7 +2851,7 @@ AcDbLine
   0
 LINE
   5
-51
+56
 100
 AcDbEntity
   8
@@ -2761,7 +2875,7 @@ AcDbLine
   0
 ELLIPSE
   5
-52
+57
 100
 AcDbEntity
   8
@@ -2795,7 +2909,7 @@ AcDbEllipse
   0
 LINE
   5
-53
+58
 100
 AcDbEntity
   8
@@ -2819,7 +2933,7 @@ AcDbLine
   0
 LINE
   5
-54
+59
 100
 AcDbEntity
   8
@@ -2843,155 +2957,11 @@ AcDbLine
   0
 LINE
   5
-55
-100
-AcDbEntity
-  8
-sail
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-1300
- 20
-500
- 11
-3100
- 21
-600
-  0
-LINE
-  5
-56
-100
-AcDbEntity
-  8
-sail
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3100
- 20
-600
- 11
-2100
- 21
-3300
-  0
-LINE
-  5
-57
-100
-AcDbEntity
-  8
-sail
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-2100
- 20
-3300
- 11
-1300
- 21
-2300
-  0
-LINE
-  5
-58
-100
-AcDbEntity
-  8
-sail
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-1300
- 20
-2300
- 11
-1300
- 21
-500
-  0
-LINE
-  5
-59
-100
-AcDbEntity
-  8
-coe
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-2200
- 20
-550
- 11
-1700
- 21
-2800
-  0
-LINE
-  5
 5A
 100
 AcDbEntity
   8
-coe
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-1300
- 20
-1400
- 11
-2600
- 21
-1950
-  0
-LINE
-  5
-5B
-100
-AcDbEntity
-  8
-spars
+mast
   6
 ByLayer
  62
@@ -3011,11 +2981,107 @@ AcDbLine
   0
 LINE
   5
+5B
+100
+AcDbEntity
+  8
+1_sail_rotated
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1722.680473909825
+ 20
+531.3868504299098
+ 11
+0
+ 21
+0
+  0
+LINE
+  5
 5C
 100
 AcDbEntity
   8
-spars
+1_sail_rotated
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+0.006875984516682365
+ 21
+2879.236009769384
+  0
+LINE
+  5
+5D
+100
+AcDbEntity
+  8
+1_sail_rotated
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0.006875984516682365
+ 20
+2879.236009769384
+ 11
+1097.518664464694
+ 21
+2219.336112703894
+  0
+LINE
+  5
+5E
+100
+AcDbEntity
+  8
+1_sail_rotated
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1097.518664464694
+ 20
+2219.336112703894
+ 11
+1722.680473909825
+ 21
+531.3868504299098
+  0
+LINE
+  5
+5F
+100
+AcDbEntity
+  8
+1_sprit
   6
 ByLayer
  62
@@ -3030,6 +3096,510 @@ AcDbLine
 3300
  11
 1300
+ 21
+800
+  0
+LINE
+  5
+60
+100
+AcDbEntity
+  8
+2_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+2300
+ 11
+1300
+ 21
+500
+  0
+LINE
+  5
+61
+100
+AcDbEntity
+  8
+1_sail
+  6
+ByLayer
+ 62
+    3
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+500
+ 11
+3100
+ 21
+600
+  0
+LINE
+  5
+62
+100
+AcDbEntity
+  8
+1_sail
+  6
+ByLayer
+ 62
+    3
+370
+   -1
+100
+AcDbLine
+ 10
+3100
+ 20
+600
+ 11
+2100
+ 21
+3300
+  0
+LINE
+  5
+63
+100
+AcDbEntity
+  8
+1_sail
+  6
+ByLayer
+ 62
+    3
+370
+   -1
+100
+AcDbLine
+ 10
+2100
+ 20
+3300
+ 11
+1300
+ 21
+2300
+  0
+LINE
+  5
+64
+100
+AcDbEntity
+  8
+1_sail
+  6
+ByLayer
+ 62
+    3
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+2300
+ 11
+1300
+ 21
+500
+  0
+LINE
+  5
+65
+100
+AcDbEntity
+  8
+1_coe
+  6
+ByLayer
+ 62
+    3
+370
+   -1
+100
+AcDbLine
+ 10
+2200
+ 20
+550
+ 11
+1700
+ 21
+2800
+  0
+LINE
+  5
+66
+100
+AcDbEntity
+  8
+1_coe
+  6
+ByLayer
+ 62
+    3
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+1400
+ 11
+2600
+ 21
+1950
+  0
+LINE
+  5
+67
+100
+AcDbEntity
+  8
+1_sheet_angle
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+2300
+ 11
+3300
+ 21
+400
+  0
+LINE
+  5
+68
+100
+AcDbEntity
+  8
+1.5_sail
+  6
+ByLayer
+ 62
+    4
+370
+   -1
+100
+AcDbLine
+ 10
+3100
+ 20
+900
+ 11
+2100
+ 21
+3600
+  0
+LINE
+  5
+69
+100
+AcDbEntity
+  8
+1.5_sail
+  6
+ByLayer
+ 62
+    4
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+400
+ 11
+3100
+ 21
+900
+  0
+LINE
+  5
+6A
+100
+AcDbEntity
+  8
+1.5_sail
+  6
+ByLayer
+ 62
+    4
+370
+   -1
+100
+AcDbLine
+ 10
+2100
+ 20
+3600
+ 11
+1300
+ 21
+2300
+  0
+LINE
+  5
+6B
+100
+AcDbEntity
+  8
+1.5_sail
+  6
+ByLayer
+ 62
+    4
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+2300
+ 11
+1300
+ 21
+400
+  0
+LINE
+  5
+6C
+100
+AcDbEntity
+  8
+1.5_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+1350
+ 11
+2600
+ 21
+2250
+  0
+LINE
+  5
+6D
+100
+AcDbEntity
+  8
+1.5_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1700
+ 20
+2950
+ 11
+2200
+ 21
+650
+  0
+LINE
+  5
+6E
+100
+AcDbEntity
+  8
+1.5_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+2300
+ 11
+3950
+ 21
+241.5
+  0
+LINE
+  5
+6F
+100
+AcDbEntity
+  8
+2_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+2300
+ 11
+3600
+ 21
+400
+  0
+LINE
+  5
+70
+100
+AcDbEntity
+  8
+2_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+500
+ 11
+3100
+ 21
+800
+  0
+LINE
+  5
+71
+100
+AcDbEntity
+  8
+2_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+1400
+ 11
+2650
+ 21
+2100
+  0
+LINE
+  5
+72
+100
+AcDbEntity
+  8
+2_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1750
+ 20
+2850
+ 11
+2200
+ 21
+650
+  0
+LINE
+  5
+73
+100
+AcDbEntity
+  8
+2_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1300
+ 20
+2300
+ 11
+2200
+ 21
+3400
+  0
+LINE
+  5
+74
+100
+AcDbEntity
+  8
+2_sail
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2200
+ 20
+3400
+ 11
+3100
  21
 800
   0
@@ -3062,6 +3632,22 @@ C
 AcDbDictionary
 281
     1
+  0
+PLOTSETTINGS
+  5
+75
+100
+AcDbPlotSettings
+  6
+1x1
+ 40
+0
+ 41
+0
+ 42
+0
+ 43
+0
   0
 ENDSEC
   0

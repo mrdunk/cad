@@ -1,0 +1,508 @@
+{
+  "material": {
+    "_type": "WorkpieceTreeItem",
+    "material": 0,
+    "thickness": 4.0,
+    "clearance": 15.0,
+    "safe_entry_z": 1.0
+  },
+  "tools": [
+    {
+      "_type": "EndMillCutter",
+      "id": 1063,
+      "name": "Cheapy 1/8",
+      "material": "carbide",
+      "diameter": 3.175,
+      "length": 20.0,
+      "flutes": 2,
+      "shape": 0,
+      "angle": 180,
+      "tip_diameter": 0,
+      "max_doc": null
+    }
+  ],
+  "tool_presets": [
+    {
+      "_type": "EndMillPreset",
+      "id": 1062,
+      "name": "MDF",
+      "rpm": null,
+      "hfeed": 600.0,
+      "vfeed": 200.0,
+      "maxdoc": 5.0,
+      "offset": 0.0,
+      "stepover": 0.75,
+      "direction": 0,
+      "extra_width": 0.5,
+      "trc_rate": 0.0,
+      "pocket_strategy": 1,
+      "axis_angle": 0.0,
+      "eh_diameter": 0.5,
+      "entry_mode": 2,
+      "roughing_offset": 0.0,
+      "toolbit": 1063
+    }
+  ],
+  "default_presets": [
+    {
+      "tool_id": 1063,
+      "preset_id": 1062
+    }
+  ],
+  "drawing": {
+    "header": {
+      "_type": "DrawingTreeItem",
+      "x_offset": 0,
+      "y_offset": 0
+    },
+    "items": [
+      {
+        "_type": "DrawingPolylineTreeItem",
+        "shape_id": 10,
+        "points": [
+          [
+            209.8768901020001,
+            74.70153752400009
+          ],
+          [
+            176.229444542,
+            74.70153752400009
+          ],
+          [
+            174.0740454679999,
+            70.19327764700009
+          ],
+          [
+            171.4219484959999,
+            65.958789521
+          ],
+          [
+            168.3068801320001,
+            62.05187686400021
+          ],
+          [
+            164.752573599,
+            58.539750312
+          ],
+          [
+            160.817490223,
+            55.4607310220001
+          ],
+          [
+            156.558781792,
+            52.8474537940001
+          ],
+          [
+            156.2248856579999,
+            52.661689389
+          ],
+          [
+            62.21350627800007,
+            52.661689389
+          ],
+          [
+            61.87961014400003,
+            52.8474537940001
+          ],
+          [
+            57.62090171299997,
+            55.4607310220001
+          ],
+          [
+            53.685818337,
+            58.539750312
+          ],
+          [
+            50.13151180399996,
+            62.05187686400031
+          ],
+          [
+            47.01644344100009,
+            65.958789521
+          ],
+          [
+            44.36434646900011,
+            70.19327764700009
+          ],
+          [
+            42.20894739400001,
+            74.70153752400009
+          ],
+          [
+            8.561501834999945,
+            74.70153752400009
+          ],
+          [
+            8.561501834999945,
+            70.7979042879999
+          ],
+          [
+            4.561501834999945,
+            70.7979042879999
+          ],
+          [
+            4.561501834999945,
+            74.70153752400009
+          ],
+          [
+            2.561501834999945,
+            74.70153752400009
+          ],
+          [
+            2.561501834999945,
+            70.7979042879999
+          ],
+          [
+            0.0,
+            70.7979042879999
+          ],
+          [
+            8.123614744999944,
+            47.93462589400011
+          ],
+          [
+            8.891712274999922,
+            48.5749587640001
+          ],
+          [
+            26.72384961700004,
+            25.66590282100003
+          ],
+          [
+            27.24079656899994,
+            26.52192025600004
+          ],
+          [
+            50.49868550700013,
+            11.33726705200013
+          ],
+          [
+            50.72395185899996,
+            12.31156427100029
+          ],
+          [
+            79.62802288300009,
+            4.607655974000295
+          ],
+          [
+            79.71054492300004,
+            5.604245214000116
+          ],
+          [
+            107.2191959679999,
+            2.857867840000168
+          ],
+          [
+            107.2191959679999,
+            3.661718968000073
+          ],
+          [
+            111.2191959679999,
+            3.661718968000073
+          ],
+          [
+            111.2191959679999,
+            2.857867840000168
+          ],
+          [
+            138.727847013,
+            5.604245214000017
+          ],
+          [
+            138.8103690539999,
+            4.607655974000195
+          ],
+          [
+            167.7144400770001,
+            12.31156427100019
+          ],
+          [
+            167.9397064289999,
+            11.33726705200003
+          ],
+          [
+            191.1975953670001,
+            26.52192025599994
+          ],
+          [
+            191.714542319,
+            25.66590282099993
+          ],
+          [
+            209.5466796610001,
+            48.574958764
+          ],
+          [
+            210.3147771910001,
+            47.93462589400001
+          ],
+          [
+            218.438391937,
+            70.7979042879999
+          ],
+          [
+            215.8768901020001,
+            70.7979042879999
+          ],
+          [
+            215.8768901020001,
+            74.70153752400009
+          ],
+          [
+            213.8768901020001,
+            74.70153752400009
+          ],
+          [
+            213.8768901020001,
+            70.7979042879999
+          ],
+          [
+            209.8768901020001,
+            70.7979042879999
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 11,
+        "cx": 20.0,
+        "cy": 60.0,
+        "r": 9.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 12,
+        "cx": 200.0,
+        "cy": 60.0,
+        "r": 9.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 13,
+        "cx": 150.0,
+        "cy": 20.0,
+        "r": 9.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 14,
+        "cx": 70.0,
+        "cy": 20.0,
+        "r": 9.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 15,
+        "cx": 20.0,
+        "cy": 60.0,
+        "r": 3.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 16,
+        "cx": 70.0,
+        "cy": 20.0,
+        "r": 3.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 17,
+        "cx": 150.0,
+        "cy": 20.0,
+        "r": 3.0
+      },
+      {
+        "_type": "DrawingCircleTreeItem",
+        "shape_id": 18,
+        "cx": 200.0,
+        "cy": 60.0,
+        "r": 3.0
+      }
+    ]
+  },
+  "operation_cycles": [
+    {
+      "tool_id": 1063,
+      "is_current": true,
+      "operations": [
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1063,
+          "tool_preset": 1062,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 15
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1063,
+          "tool_preset": 1062,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 16
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1063,
+          "tool_preset": 1062,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 17
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 6,
+          "cutter": 1063,
+          "tool_preset": 1062,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 18
+        },
+        {
+          "_type": "OperationTreeItem",
+          "operation": 1,
+          "cutter": 1063,
+          "tool_preset": 1062,
+          "depth": null,
+          "start_depth": 0,
+          "tab_height": null,
+          "tab_count": null,
+          "user_tabs": [],
+          "entry_exit": [],
+          "wall_profile": null,
+          "dogbones": 0,
+          "extra_width": null,
+          "islands": [],
+          "pocket_strategy": null,
+          "axis_angle": null,
+          "direction": null,
+          "doc": null,
+          "hfeed": null,
+          "vfeed": null,
+          "offset": null,
+          "roughing_offset": null,
+          "stepover": null,
+          "thread_pitch": null,
+          "eh_diameter": null,
+          "entry_mode": null,
+          "trc_rate": null,
+          "pattern_type": 2,
+          "pattern_angle": 45,
+          "pattern_scale": 100,
+          "rpm": null,
+          "active": true,
+          "shape_id": 10
+        }
+      ]
+    }
+  ],
+  "wall_profiles": []
+}
